@@ -1,0 +1,8 @@
+.idea
+.idea/*
+backend/logs
+backend/logs/*
+backend/js-knowleage
+/node_modules/webpack
+/node_modules/webpack/*
+backend/config/default-bs-env.js
