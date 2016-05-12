@@ -1,0 +1,2076 @@
+body>
+</html>
+
+
+
+<script language="javascript">
+<!--
+  window.cfg = {
+    lang : 'c' ,
+    fullLang : 'Chinese' ,
+    langs : {
+      ts_qxjzw : '��ѡ��ְλ' ,
+      queren : 'ȷ��' ,
+      guanbi : '�ر�' ,
+      yxdd : '��ѡ�ص�' ,
+      yxzn : '��ѡְ��' ,
+      yxhy : '��ѡ��ҵ' ,
+      nzdnxj : '��������ѡ��' ,
+      xiang : '��' ,
+      xjdq : 'ѡ������' ,
+      xj_xg : 'ѡ��/�޸�' ,
+      zycs : '��Ҫ����' ,
+      sysf : '����ʡ��' ,
+	  tspd : '����Ƶ��',
+      qxjgzdd : '��ѡ�������ص�' ,
+      qxjznlb : '��ѡ��ְ������' ,
+      qxjhylb : '��ѡ����ҵ����' ,
+      gzdd : '�����ص�' ,
+      buxian : '����'
+    } ,
+    url : {
+      image : 'http://img01.51jobcdn.com/im/2009' ,
+      image_search : 'http://img01.51jobcdn.com/im/2009/search' ,
+      image_search_lang : 'http://img01.51jobcdn.com/im/2009/search/c' ,
+      image_search_c : 'http://img01.51jobcdn.com/im/2009/search/c' ,
+      image_search_e : 'http://img01.51jobcdn.com/im/2009/search/e'
+    }
+  };
+  function searchInit() {
+    if ( window.JobLayer ) {
+      clearInterval( intVal );
+
+      var param = {
+        cfg : cfg ,
+        openNodes : document.frmKeywordSearch.btnJobarea ,
+        _valueNodes : document.frmKeywordSearch.jobarea  ,
+        _textNodes : document.frmKeywordSearch.btnJobarea  ,
+        isMulty : false ,
+        isHasNolimit : true
+      };
+      var jl = new JobareaLayer( param );
+    }
+  }
+  var intVal = window.setInterval( searchInit , 50 );
+  
+	function onloadFun(){
+	  if(window.$){
+	    $(document).ready(function(){
+	      /*ȥ�����ӣ�button��image button�ĵ���ʱ���߿�*/
+	      $("a,input[type='button'],input[type='image'],input[type='submit'],area,img").bind("focus",function(){
+	        if(this.blur){
+	          this.blur();
+	        }
+	      })
+	    })
+	  } else {
+	    setTimeout("onloadFun()",1000);
+	  }
+	}
+	onloadFun();
+
+
+    function closeRightBottomLayer(sClassName) {
+        $('.weifantang-wrap').hide();
+    }
+
+-->
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+$(function() {
+	$("img").lazyload({placeholder : "http://img01.51jobcdn.com/im/2009/grey.gif",effect : "fadeIn", threshold : 200});
+});
+-->
+</script>
+					aes.eq(count_len).mask();
+				}
+				$('#all_img').hide();
+				$('#xz_img').show();
+		}
+	function movemask(a){
+			var aes = $('.'+a+'');
+			var count_len = aes.length-1;
+			for(count_len;count_len>=0;count_len--){
+				aes.eq(count_len).unmask();
+			}
+			$('#xz_img').hide();
+			$('#all_img').show();
+		
+		}
+</script>
+	</div>
+</div>
+<!--  �����ֶ����� end-->
+
+
+<script language="javascript">
+$(document).ready(function(){
+	setTimeout(function(){
+	 $(".index_ad_popup").each(function(){
+			var width = $(this).find("img").attr("width");
+			width = parseInt(width) - 8;
+			var height =  $(this).find("img").attr("height");
+			height = parseInt(height) - 8;
+			var span = '<span class="ad_more" style="margin-top:'+ height +'px;margin-left:'+ width +'px;"> </span>';
+			$(this).prepend(span);					
+	});
+	},1);
+	 $("#zoomer").mouseleave(function(){
+			$("#zoomer").css({
+				"display":"none"
+			});
+			$("#zoomer").html('');
+		});
+});
+</script></<!DOCTYPE html><!--STATUS OK-->
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="dns-prefetch" href="//s1.bdstatic.com"/>
+	<link rel="dns-prefetch" href="//t1.baidu.com"/>
+	<link rel="dns-prefetch" href="//t2.baidu.com"/>
+	<link rel="dns-prefetch" href="//t3.baidu.com"/>
+	<link rel="dns-prefetch" href="//t10.baidu.com"/>
+	<link rel="dns-prefetch" href="//t11.baidu.com"/>
+	<link rel="dns-prefetch" href="//t12.baidu.com"/>
+	<link rel="dns-prefetch" href="//b1.bdstatic.com"/>
+	<title>百度一下，你就知道</title>
+	<link href="http://s1.bdstatic.com/r/www/cache/static/home/css/index.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]><style index="index" >#content{height:480px\9}#m{top:260px\9}</style><![endif]-->
+	<!--[if IE 8]><style index="index" >#u1 a.mnav,#u1 a.mnav:visited{font-family:simsun}</style><![endif]-->
+	<script>var hashMatch = document.location.href.match(/#+(.*wd=[^&].+)/);if (hashMatch && hashMatch[0] && hashMatch[1]) {document.location.replace("http://"+location.host+"/s?"+hashMatch[1]);}var ns_c = function(){};</script>
+	<script>function h(obj){obj.style.behavior='url(#default#homepage)';var a = obj.setHomePage('//www.baidu.com/');}</script>
+	<noscript><meta http-equiv="refresh" content="0; url=/baidu.html?from=noscript"/></noscript>
+	<script>window._ASYNC_START=new Date().getTime();</script>
+</head>
+<body link="#0000cc"><div id="wrapper" style="display:none;"><div id="u"><a href="//www.baidu.com/gaoji/preferences.html"  onmousedown="return user_c({'fm':'set','tab':'setting','login':'0'})">搜索设置</a>|<a id="btop" href="/"  onmousedown="return user_c({'fm':'set','tab':'index','login':'0'})">百度首页</a>|<a id="lb" href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" onclick="return false;"  onmousedown="return user_c({'fm':'set','tab':'login'})">登录</a><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F"  onmousedown="return user_c({'fm':'set','tab':'reg'})" target="_blank" class="reg">注册</a></div><div id="head"><div class="s_nav"><a href="/" class="s_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img src="//www.baidu.com/img/baidu_jgylogo3.gif" width="117" height="38" border="0" alt="到百度首页" title="到百度首页"></a><div class="s_tab" id="s_tab"><a href="http://news.baidu.com/ns?cl=2&rn=20&tn=news&word=" wdfield="word"  onmousedown="return c({'fm':'tab','tab':'news'})">新闻</a>&#12288;<b>网页</b>&#12288;<a href="http://tieba.baidu.com/f?kw=&fr=wwwt" wdfield="kw"  onmousedown="return c({'fm':'tab','tab':'tieba'})">贴吧</a>&#12288;<a href="http://zhidao.baidu.com/q?ct=17&pn=0&tn=ikaslist&rn=10&word=&fr=wwwt" wdfield="word"  onmousedown="return c({'fm':'tab','tab':'zhidao'})">知道</a>&#12288;<a href="http://music.baidu.com/search?fr=ps&key=" wdfield="key"  onmousedown="return c({'fm':'tab','tab':'music'})">音乐</a>&#12288;<a href="http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&word=" wdfield="word"  onmousedown="return c({'fm':'tab','tab':'pic'})">图片</a>&#12288;<a href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=25&word=" wdfield="word"   onmousedown="return c({'fm':'tab','tab':'video'})">视频</a>&#12288;<a href="http://map.baidu.com/m?word=&fr=ps01000" wdfield="word"  onmousedown="return c({'fm':'tab','tab':'map'})">地图</a>&#12288;<a href="http://wenku.baidu.com/search?word=&lm=0&od=0" wdfield="word"  onmousedown="return c({'fm':'tab','tab':'wenku'})">文库</a>&#12288;<a href="//www.baidu.com/more/"  onmousedown="return c({'fm':'tab','tab':'more'})">更多»</a></div></div><form id="form" name="f" action="/s" class="fm" ><input type="hidden" name="ie" value="utf-8"><input type="hidden" name="f" value="8"><input type="hidden" name="rsv_bp" value="1"><span class="bg s_ipt_wr"><input name="wd" id="kw" class="s_ipt" value="" maxlength="100"></span><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn" onmousedown="this.className='bg s_btn s_btn_h'" onmouseout="this.className='bg s_btn'"></span><span class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span><span class="shouji"><strong>推荐&nbsp;:&nbsp;</strong><a href="http://w.x.baidu.com/go/mini/8/10000020" onmousedown="return ns_c({'fm':'behs','tab':'bdbrowser'})">百度浏览器，打开网页快2秒！</a></span></span></form></div><div id="content"><div id="u1"><a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a><a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a><a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a><a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a><a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" id="lb" onclick="return false;">登录</a><a href="//www.baidu.com/gaoji/preferences.html" name="tj_settingicon" id="pf">设置</a><a href="//www.baidu.com/more/" name="tj_briicon" id="bri">更多产品</a></div><div id="m"><p id="lg"><img src="//www.baidu.com/img/bd_logo.png" width="270" height="129"></p><p id="nv"><a href="http://news.baidu.com">新&nbsp;闻</a>　<b>网&nbsp;页</b>　<a href="http://tieba.baidu.com">贴&nbsp;吧</a>　<a href="http://zhidao.baidu.com">知&nbsp;道</a>　<a href="http://music.baidu.com">音&nbsp;乐</a>　<a href="http://image.baidu.com">图&nbsp;片</a>　<a href="http://v.baidu.com">视&nbsp;频</a>　<a href="http://map.baidu.com">地&nbsp;图</a></p><div id="fm"><form id="form1" name="f1" action="/s" class="fm"><span class="bg s_ipt_wr"><input type="text" name="wd" id="kw1" maxlength="100" class="s_ipt"></span><input type="hidden" name="rsv_bp" value="0"><input type=hidden name=ch value=""><input type=hidden name=tn value="baidu"><input type=hidden name=bar value=""><input type="hidden" name="rsv_spt" value="3"><input type="hidden" name="ie" value="utf-8"><span class="bg s_btn_wr"><input type="submit" value="百度一下" id="su1" class="bg s_btn" onmousedown="this.className='bg s_btn s_btn_h'" onmouseout="this.className='bg s_btn'"></span></form><span class="tools"><span id="mHolder1"><div id="mCon1"><span>输入法</span></div></span></span><ul id="mMenu1"><div class="mMenu1-tip-arrow"><em></em><ins></ins></div><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></div><p id="lk"><a href="http://baike.baidu.com">百科</a>　<a href="http://wenku.baidu.com">文库</a>　<a href="http://www.hao123.com">hao123</a><span>&nbsp;|&nbsp;<a href="//www.baidu.com/more/">更多&gt;&gt;</a></span></p><p id="lm"></p></div></div><div id="ftCon"><div id="ftConw"><p id="lh"><a id="seth" onClick="h(this)" href="/" onmousedown="return ns_c({'fm':'behs','tab':'homepage','pos':0})">把百度设为主页</a><a id="setf" href="//www.baidu.com/cache/sethelp/index.html" onmousedown="return ns_c({'fm':'behs','tab':'favorites','pos':0})" target="_blank">把百度设为主页</a><a onmousedown="return ns_c({'fm':'behs','tab':'tj_about'})" href="http://home.baidu.com">关于百度</a><a onmousedown="return ns_c({'fm':'behs','tab':'tj_about_en'})" href="http://ir.baidu.com">About Baidu</a></p><p id="cp">&copy;2014&nbsp;Baidu&nbsp;<a href="/duty/" name="tj_duty">使用百度前必读</a>&nbsp;京ICP证030173号&nbsp;<img src="http://s1.bdstatic.com/r/www/cache/static/global/img/gs_237f015b.gif"></p></div></div><div id="wrapper_wrapper"></div></div><div class="c-tips-container" id="c-tips-container"></div>
+<script>window.__async_strategy=2;</script>
+<script>var bds={se:{},su:{urdata:[],urSendClick:function(){}},util:{},use:{},comm : {domain:"http://www.baidu.com",ubsurl : "http://sclick.baidu.com/w.gif",tn:"baidu",queryEnc:"",queryId:"",inter:"",templateName:"baidu",sugHost : "http://suggestion.baidu.com/su",query : "",qid : "",cid : "",sid : "",indexSid : "",stoken : "",serverTime : "",user : "",username : "",loginAction : [],useFavo : "",pinyin : "",favoOn : "",curResultNum:"",rightResultExist:false,protectNum:0,zxlNum:0,pageNum:1,pageSize:10,newindex:0,async:1,maxPreloadThread:5,maxPreloadTimes:10,preloadMouseMoveDistance:5,switchAddMask:false,isDebug:false,ishome : 1},_base64:{domain : "http://b1.bdstatic.com/",b64Exp : -1,pdc : 0}};var name,navigate,al_arr=[];var selfOpen = window.open;eval("var open = selfOpen;");var isIE=navigator.userAgent.indexOf("MSIE")!=-1&&!window.opera;var E = bds.ecom= {};bds.se.mon = {'loadedItems':[],'load':function(){},'srvt':-1};try {bds.se.mon.srvt = parseInt(document.cookie.match(new RegExp("(^| )BDSVRTM=([^;]*)(;|$)"))[2]);document.cookie="BDSVRTM=;expires=Sat, 01 Jan 2000 00:00:00 GMT"; }catch(e){}</script>
+<script>if(!location.hash.match(/[^a-zA-Z0-9]wd=/)){document.getElementById("ftCon").style.display='block';document.getElementById("u1").style.display='block';document.getElementById("content").style.display='block';document.getElementById("wrapper").style.display='block';setTimeout(function(){try{document.getElementById("kw1").focus();document.getElementById("kw1").parentNode.className += ' iptfocus';}catch(e){}},0);}</script>
+<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/static/jquery/jquery-1.10.2.min_f2fb5194.js"></script>
+<script>(function(){var index_content = $('#content');var index_foot= $('#ftCon');var index_css= $('head [index]');var index_u= $('#u1');var result_u= $('#u');var wrapper=$("#wrapper");window.index_on=function(){index_css.insertAfter("meta:eq(0)");result_common_css.remove();result_aladdin_css.remove();result_sug_css.remove();index_content.show();index_foot.show();index_u.show();result_u.hide();wrapper.show();if(bds.su&&bds.su.U&&bds.su.U.homeInit){bds.su.U.homeInit();}setTimeout(function(){try{$('#kw1').get(0).focus();window.sugIndex.start();}catch(e){}},0);if(typeof initIndex=='function'){initIndex();}};window.index_off=function(){index_css.remove();index_content.hide();index_foot.hide();index_u.hide();result_u.show();result_aladdin_css.insertAfter("meta:eq(0)");result_common_css.insertAfter("meta:eq(0)");result_sug_css.insertAfter("meta:eq(0)");wrapper.show();};})();</script>
+<script>window.__switch_add_mask=1;</script>
+<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/static/global/js/instant_search_newi_redirect1_20bf4036.js"></script>
+<script>initPreload();$("#u,#u1").delegate("#lb",'click',function(){try{bds.se.login.open();}catch(e){}});if(navigator.cookieEnabled){document.cookie="NOJS=;expires=Sat, 01 Jan 2000 00:00:00 GMT";}</script>
+<script>$(function(){for(i=0;i<3;i++){u($($('.s_ipt_wr')[i]),$($('.s_ipt')[i]),$($('.s_btn_wr')[i]),$($('.s_btn')[i]));}function u(iptwr,ipt,btnwr,btn){if(iptwr && ipt){iptwr.on('mouseover',function(){iptwr.addClass('ipthover');}).on('mouseout',function(){iptwr.removeClass('ipthover');}).on('click',function(){ipt.focus();});ipt.on('focus',function(){iptwr.addClass('iptfocus');}).on('blur',function(){iptwr.removeClass('iptfocus');}).on('render',function(e){var $s = iptwr.parent().find('.bdsug');var l = $s.find('li').length;if(l>=5){$s.addClass('bdsugbg');}else{$s.removeClass('bdsugbg');}});}if(btnwr && btn){btnwr.on('mouseover',function(){btn.addClass('btnhover');}).on('mouseout',function(){btn.removeClass('btnhover');});}}});</script>
+<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/static/home/js/bri_7f1fa703.js"></script>
+<script>(function(){var _init=false;window.initIndex=function(){if(_init){return;}_init=true;var w=window,d=document,n=navigator,k=d.f1.wd,a=d.getElementById("nv").getElementsByTagName("a"),isIE=n.userAgent.indexOf("MSIE")!=-1&&!window.opera;(function(){if(/q=([^&]+)/.test(location.search)){k.value=decodeURIComponent(RegExp["\x241"])}})();(function(){var u = G("u1").getElementsByTagName("a"), nv = G("nv").getElementsByTagName("a"), lk = G("lk").getElementsByTagName("a"), un = "";var tj_nv = ["news","tieba","zhidao","mp3","img","video","map"];var tj_lk = ["baike","wenku","hao123","more"];un = bds.comm.user == "" ? "" : bds.comm.user;function _addTJ(obj){addEV(obj, "mousedown", function(e){var e = e || window.event;var target = e.target || e.srcElement;if(target.name){ns_c({'fm':'behs','tab':target.name,'un':encodeURIComponent(un)});}});}for(var i = 0; i < u.length; i++){_addTJ(u[i]);}for(var i = 0; i < nv.length; i++){nv[i].name = 'tj_' + tj_nv[i];}for(var i = 0; i < lk.length; i++){lk[i].name = 'tj_' + tj_lk[i];}})();(function() {var links = {'tj_news': ['word', 'http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&ie=utf-8'],'tj_tieba': ['kw', 'http://tieba.baidu.com/f?ie=utf-8'],'tj_zhidao': ['word', 'http://zhidao.baidu.com/search?pn=0&rn=10&lm=0'],'tj_mp3': ['key', 'http://music.baidu.com/search?fr=ps&ie=utf-8'],'tj_img': ['word', 'http://image.baidu.com/i?ct=201326592&cl=2&nc=1&lm=-1&st=-1&tn=baiduimage&istype=2&fm=&pv=&z=0&ie=utf-8'],'tj_video': ['word', 'http://video.baidu.com/v?ct=301989888&s=25&ie=utf-8'],'tj_map': ['wd', 'http://map.baidu.com/?newmap=1&ie=utf-8&s=s'],'tj_baike': ['word', 'http://baike.baidu.com/search/word?pic=1&sug=1&enc=utf8'],'tj_wenku': ['word', 'http://wenku.baidu.com/search?ie=utf-8']};var domArr = [G('nv'), G('lk'),G('cp')],kw = G('kw1');for (var i = 0, l = domArr.length; i < l; i++) {domArr[i].onmousedown = function(e) {e = e || window.event;var target = e.target || e.srcElement,name = target.getAttribute('name'),items = links[name],reg = new RegExp('^\\s+|\\s+\x24'),key = kw.value.replace(reg, '');if (items) {if (key.length > 0) {var wd = items[0], url = items[1],url = url + ( name === 'tj_map' ? encodeURIComponent('&' + wd + '=' + key) : ( ( url.indexOf('?') > 0 ? '&' : '?' ) + wd + '=' + encodeURIComponent(key) ) );target.href = url;} else {target.href = target.href.match(new RegExp('^http:\/\/.+\.baidu\.com'))[0];}}name && ns_c({'fm': 'behs','tab': name,'query': encodeURIComponent(key),'un': encodeURIComponent(bds.comm.user || '') });};}})();};if(window.pageState==0){initIndex();}})();document.cookie = 'IS_STATIC=1;expires=' + new Date(new Date().getTime() + 10*60*1000).toGMTString();</script>
+</body></html><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>汇智网 - 最前沿的在线互动编程学习平台</title>
+    <!--极速模式-->
+    <meta name="renderer" content="webkit">
+    <!--支持IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--支持移动设备,禁用缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="汇智, 汇智网, node, node.js, nodejs, mongodb, javascript, jquery, ajax, mongoose, 在线编程, 互动式编程, 编程, IT教育, 免费, node.js教程,mongodb教程,html5教程,css3教程,web前端,IT技能培训,IT在线学习,IT在线教育, IT职业教育, 在线编程学习, 移动开发" />
+    <meta name="Description" content="汇智网是一个学习最前沿编程技术的平台，提供了mongodb，node.js，javascript，jquery等相关的课程。汇智网互动式的学习和实时在线的练习，能让你迅速进入状态，快速完成课程学习。">
+    <meta name="baidu-site-verification" content="f1ba5b4a33d29d84db69f029b9ace483" />
+	<meta property="qc:admins" content="215627021760527126375" />
+	<meta property="wb:webmaster" content="d0e7e1ab724acbc8" />
+    <!--jACKY 2016-3-25-->
+    
+    <link href="/stylesheets/index.min.css" rel="stylesheet"/>
+     
+    <!--jACKY end-->
+</head>
+
+<body class="hb-index">
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+                <img src="images/logo.png" alt="汇智网欢迎你！">
+            </a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="/course">课程中心</a></li>
+                <li><a href="/books">互动图书</a> </li>
+                <li><a href="/exchange">讨论交流</a></li>
+                <li><a href="/recruit">招贤纳士<i class="gif-hot"></i></a></li>
+                <li>
+                    <button id="labBtn" type="button" class="btn btn-fresh text-uppercase">
+                    <i class="glyphicon glyphicon-cloud"></i> 云端练习
+                    </button>
+                </li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/login"><i class="fa fa-sign-in"></i> 登录 </a></li>
+                <li><a href="/register"><i class="fa fa-pencil"></i> 注册</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+</header>
+<div class="container" style="width: 100%">
+    <div class="row section">
+        <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!banner2.jpg" class="banner-bg"><!--jACKY 2016-3-24-->	
+        <div class="tBanner" >
+            <div>
+                <h1>用互动的方式，学习最前沿的技术</h1>
+                <p>让学习更加有趣，进步变得简单！</p>
+                <a href="/course" class="btn btn-primary btn-lg">
+                    <i style="margin-right: 10px;" class="glyphicon glyphicon-send"></i>
+                    开始学习
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+        <div class="jcarousel-wrapper container">
+            <div class="course-evaluation jcarousel " data-jcarousel="true">
+                <ul style="left: 0; top: 0;">
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/5359f6f6ec7452081a7873d8">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section0.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/5359f6f6ec7452081a7873d8">
+                                        Node.js
+                                    </a>
+                                </h5>
+                                <a href="/course/5359f6f6ec7452081a7873d8">
+                                    Node.js是一个基于Chrome JavaScript运行时建立的一个平台，用来方便地搭建.....
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/5449c691e564e50960f1b7a9">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section1.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/5449c691e564e50960f1b7a9">
+                                        Spark
+                                    </a>
+                                </h5>
+                                <a href="/course/5449c691e564e50960f1b7a9">
+                                    Apache Spark 是一个用于大规模数据处理的计算引擎，数据处理专家.....
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/56821c3f660c92d638a68df5">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section2.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/56821c3f660c92d638a68df5">
+                                        20小时学会编程
+                                    </a>
+                                </h5>
+                                <a href="/course/56821c3f660c92d638a68df5">
+                                    关键20小时之编程，其中10小时是研究，然后剩下的10小时是编写两个应用程序.....
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/5507ca5be564e51314f544e4">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section3.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/5507ca5be564e51314f544e4">
+                                        Ionic
+                                    </a>
+                                </h5>
+                                <a href="/course/5507ca5be564e51314f544e4">
+                                    有了Ionic，我们可以使用它轻松开发HTML5跨平台移动应用。
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/54ee8d2de564e519b8f8dad3">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section4.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/54ee8d2de564e519b8f8dad3">
+                                        JavaScript
+                                    </a>
+                                </h5>
+                                <a href="/course/54ee8d2de564e519b8f8dad3">
+                                     JavaScript是一种属于网络的脚本语言,身处移动互联网时代，你必须要认识它。
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/550a8966e564e51f041a15ba">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section5.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/550a8966e564e51f041a15ba">
+                                        MySQL
+                                    </a>
+                                </h5>
+                                <a href="/course/550a8966e564e51f041a15ba">
+                                    MySQL是一个成熟优秀的数据库，我们可以使用它存储海量数据.....
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="course-content">
+                            <div class="course-evaluation_img">
+                                <a href="/course/54d1cae088dba03f2cd1fec1">
+                                    <img alt='热门课程' style='border-bottom:1px solid #ddd;' class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!section6.png">
+                                </a>
+                            </div>
+                            <div class="course-evaluation_text">
+                                <h5>
+                                    <a href="/course/54d1cae088dba03f2cd1fec1">
+                                        CSS3
+                                    </a>
+                                </h5>
+                                <a href="/course/54d1cae088dba03f2cd1fec1">
+                                    CSS3最新的样式表技术，我们使用它创造出更多令人惊叹的视觉效果.....
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!-- Prev/next controls-->
+            <a href="#" class="jcarousel-control-prev inactive" data-jcarouselcontrol="true">‹</a>
+            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"> ›</a>
+
+            <!-- Pagination -->
+            <p class="jcarousel-pagination" data-jcarouselpagination="true">
+                <a href="#1" class="active">1</a>
+                <a href="#2">2</a>
+                <a href="#3">3</a>
+            </p>
+        </div>
+
+<section class="true-environment">
+    <div class="title">
+        <h2>真实的学习环境</h2>
+        <span>Real learning environment</span>
+        <hr>
+    </div>
+    <div class="row content container">
+        <div class="col-md-4 col-lg-4 true_img">
+            <img class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!true.png" alt="练习环境"></div>
+        <div class="col-md-8 col-lg-8 true-content">
+            <h2>不用搭建学习环境</h2><p></p>
+            <p>搭建学习环境的繁琐过程，足以熄灭你刚刚燃起的学习兴趣。终于，以后再也不用烦恼了。</p>
+            <p>每个课程都有内置的学习环境，即到即学，心无旁骛，学习起来自然事半功倍。</p>
+            <img class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!true_icon.png" alt='course'>
+            <a class="enter btn btn-warning" href="/login">立即体验</a>
+        </div>
+    </div>
+</section>
+<section class="cloud-tools">
+    <div class="title">
+        <h2>云端练习工具</h2>
+        <span>The cloud practice tools</span>
+        <hr>
+    </div>
+    <div class="row content container">
+        <div class="col-md-8 col-lg-8 tool-content">
+            <h2>随处可用的云端练习工具</h2><p></p>		
+            <p>当你在阅读技术博客时，是不是希望把里面的代码跑起来？</p>
+            <p>云端练习工具可以在任何一个网站上使用，看到代码，就运行它！</p>
+            <img class="img-responsive left" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!action.png" alt='云端练习工具'>
+            <a target="_blank" class="enter right btn btn-warning" href="http://lab123.hubwiz.com">如何使用</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tool_img">
+            <img class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!tool.png" alt='云端练习工具'>
+        </div>
+    </div>
+</section>
+<section class="interactive-books">
+    <div class="title">
+        <h2>互动图书</h2>
+        <span>The interactive books</span>
+        <hr>
+    </div>
+    <div class="content container vertical">
+        <h2>图书也可以互动！</h2><p></p><p></p>
+        <p>还嫌厚重的技术图书增加你的负担？不用怕，新一代的互动图书来了！</p>
+        <p>这不仅仅是出版社授权的正版电子书，还有配套的在线练习工具和示例代码！随学随练，阅读与实践同步，
+            事半功倍的学习，还怕自己学不会吗？</p>
+
+        <a class="btn btn-warning enter" href="/books">开始读书</a>
+        <img class="img-responsive" src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!book.png" alt='互动图书'>
+    </div>
+</section>
+<section class="users">
+    <div class="title">
+        <h2>用户</h2>
+        <span>Users</span>
+        <hr>
+    </div>
+    <div class="content">
+        <div class="user-evaluation">
+            <p>无论是清晨还是黄昏，在进步的旅程中，我们风雨同舟，看看小伙伴们是如何说的！</p>
+            <div class="user-content">
+                <div class="user-content-list">
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user1.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user1.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>453820401</h5>
+                                        <br>
+                                        <p>很适合入门，一个真实的环境运行环境，报错提示都很赞。除了nodejs，其他教程也很丰富。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>453820401</h5>
+                                        <br>
+                                        <p>很适合入门，一个真实的环境运行环境，报错提示都很赞。除了nodejs，其他教程也很丰富。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user2.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user2.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>qinyb</h5>
+                                        <br>
+                                        <p>不错，知识点由浅入深，很适合新手入门，例子也比较经典，超赞!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user3.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user3.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>317197124</h5>
+                                        <br>
+                                        <p>很新颖的学习代码环境，打破了常规的视频文字教程的局限性，希望再多增加一些课程。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user5.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user5.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>462812449</h5>
+                                        <br>
+                                        <p>非常好的学习网站，对于这种无私的奉献精神，我只能说赞！！！</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user7.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user7.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>462812449</h5>
+                                        <br>
+                                        <p>非常好的学习网站，对于这种无私的奉献精神，我只能说赞！！！</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>kayshaokaiwei</h5>
+                                        <br>
+                                        <p>通过问题式的学习更快速的掌握知识，是个很好的学习网站，推荐给各位同学，赞一个。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user4.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>109568484</h5>
+                                        <br>
+                                        <p>你想js驾驭前后端吗？你想体验web开发全部流程一切尽在掌握中的快感吗。那就赶快加入我们的nodejs+mongoose学习之旅吧!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user9.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user9.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>贞贞子飘过</h5>
+                                        <br>
+                                        <p>感觉不错很多可以学习的东西，再接再励~给我们提供更多好教程~~~</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user8.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user8.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>憔悴</h5>
+                                        <br>
+                                        <p>正好在nodejs方面的东西，里面课程写的还不错，就是在这里入门的。希望网站做的越来越好。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="user-content_img">
+                            <div class="content-hover small-content-up">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user6.png" alt='用户评价'>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user6.png" alt='用户评价'>
+                                    <div class="user-text">
+                                        <h5>chhhux</h5>
+                                        <br>
+                                        <p>很赞啊，内容详实，虽然有时候有点小问题，但是能学到东西，而且交流群里大家互相帮助也很好。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-hover small-content-down">
+                                <div class="user_img">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user10.png" alt='用户评价'/>
+                                </div>
+                                <div class="user-hover">
+                                    <img src="http://7xk7h3.com2.z0.glb.qiniucdn.com/index!user10.png" alt='用户评价'/>
+                                    <div class="user-text">
+                                        <h5>1037893409</h5>
+                                        <br>
+                                        <p>32个赞,课程做的非常好,曾经也有些bug,提出后2个小时内修复.程序猿大大工作效率高,沟通热情积极,很不错。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        <p class="title_p">
+            知识那么多，应该学什么？到这里，找到最适合自己的，才是最好的！
+        </p>
+    </div>
+</section>
+<div class="study">
+    <p>汇智网，爱生活，爱学习！</p>
+    <div class="begin"><a class="btn btn-warning" href="/course">开始学习</a></div>
+</div>
+<footer>
+    <div class="bottom-content row">
+        <div class="website col-xs-12 col-sm-7 col-md-4 col-lg-4 col-md-offset-1">
+            <h5><img class="img-responsive" src="/images/logo_2.png" alt=""></h5>
+            <p style="text-indent: 2em;">
+                汇智网是一个学习最前沿编程技术的平台,互动式的学习和实时在线的练习,能让你迅速进入状态,快速掌握知识技能。
+            </p>
+            <ul  class="bdsharebuttonbox">
+                <!--<li><a data-cmd="qzone" class="weixin" title="微信" href="#"></a></li>-->
+                <li><a data-cmd="qzone" class="kongjian" title="QQ空间" href="#"></a></li>
+                <li><a data-cmd="tsina" class="xinlang" title="新浪微博" href="#"></a></li>
+                <li><a data-cmd="tqq" class="tengxun" title="腾讯微博" href="#"></a></li>
+                <li><a data-cmd="renren" class="renren" title="人人网" href="#"></a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
+            <h5>友情链接 <!--a class="pull-right" href="/friends" target="_blank">更多>>></a--></h5>
+            <ul>
+                <li><a href="http://cnodejs.org/" target="_blank"> Node.js 中文社区</a></li>
+                <li><a href="http://www.phonegap100.com" target="_blank">phonegap中文网</a></li>
+                <li><a href="http://bubuko.com/" target="_blank">布布扣</a></li>
+                <li><a href="http://ionichina.com/" target="_blank">Ionic 中文社区</a></li>
+                <li><a href="http://www.jqsite.com/" target="_blank">前端社区网</a></li>
+                <li><a href="/friends" target="_blank">更多>>></a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-2 col-lg-2 footer-services">
+            <h5>服务与支持</h5>
+            <ul>
+                <li>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2596887568&site=qq&menu=yes">
+                        <i class="glyphicon glyphicon-comment"></i>
+                        联系我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://weibo.com/u/5191023095">
+                        <i class="glyphicon glyphicon-heart"></i>
+                        关注微博</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://jq.qq.com/?_wv=1027&k=fV1rss">
+                        <i class="glyphicon glyphicon-user"></i>
+                        学习交流</a>
+                </li>
+                <li>
+                    <a target="_blank" href="/document">
+                        <i class="glyphicon glyphicon-book"></i>
+                        汇智文库</a>
+                </li>
+                <li>
+                    <a target="_blank" href="/about">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://corpus.hubwiz.com/">
+                        <i class="glyphicon glyphicon-file"></i>
+                        语料库集
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="code col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h5>微信订阅号</h5>
+            <img class="img-responsive" src="/images/code.png" alt="">
+        </div>
+    </div>
+    <div class="copyright">
+        <!--&copy; 版权所有　Hubwiz,Inc. All Rights Reserved. 京ICP备13002042号-2-->
+	&copy; Hubwiz.com  &nbsp; 京ICP备13002042号-2
+    </div>
+</footer>
+<script>
+    //支持IE
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var style = document.createElement('style');
+        style.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'));
+        document.querySelector('head').appendChild(style)
+    }
+    //百度分析
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f1ba5b4a33d29d84db69f029b9ace483";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    //heap
+    window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="http://ana.hubwiz.com/heap.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["identify","track"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};heap.load("1744309395");
+    //百度分享
+    window._bd_share_config = {
+        common:{
+            'text':'分享一个很棒的学习网站『汇智网』(http://www.hubwiz.com)，用互动的方式学习最前沿的IT知识，赶快加入吧！',
+            'desc':'汇智网- 最前沿的在线互动编程学习平台',
+            'bdComment':'汇智网 - 最前沿的在线互动编程学习平台',
+            'bdPic':'http://www.hubwiz.com/images/qrcode.jpg',
+            'onBeforeClick':function(cmd,config){
+                if(cmd == 'qzone'||cmd == 'renren'){
+                    config.bdDesc = config.text;
+                    config.bdText = config.desc;
+                }else{
+                    config.bdDesc = config.desc;
+                    config.bdText = config.text;
+                }
+                return config;
+            }
+        },
+        share:[]
+    };
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+    //    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!--jACKY 2016-3-25-->
+
+<script src="/scripts/index.min.js"></script>
+
+<!--jACKY end-->
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>��Ƹ��_�˲���_�ҹ���_��ְ_��ǰ������</title>
+<meta name="description" content="ǰ�������˲�������ȫ��,�ṩ2016������ȫ��׼ȷ����Ƹ��վ��Ϣ,Ϊ��ҵ����ְ���ṩ�˲���Ƹ����ְ���ҹ�������ѵ�����ڵ�ȫ��λ��������Դ����,������ְ�ҹ�����Ϣ����ǰ������!">
+<meta name="keywords" content="��Ƹ��,�˲���,��ְ,�ҹ���">
+<meta name="mobile-agent" content="format=html5; url=http://m.51job.com/?partner=webmeta">
+<meta name="mobile-agent" content="format=xhtml; url=http://3g.51job.com/?partner=webmeta">
+<meta name="google-site-verification" content="qHBjj4pWQYtblhSWxpYvl71W7Y09NLrBbj_Uasa8-K0">
+<meta name="robots" content="all">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="http://js.51jobcdn.com/in/css/style.css?20160330" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/logo.css" rel="stylesheet" type="text/css" />
+<link href="http://js.51jobcdn.com/in/css/2012_index.css?20160330" rel="stylesheet" type="text/css" />
+
+<script language="javascript">
+<!--
+var oPageLoadPar = {
+  startTime:   new Date().getTime(),
+  domain_logs: 'http://logs.51job.com',
+  guid:        '',
+  ip:          '116.90.81.15'
+};
+-->
+</script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/jQuery.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/JsBase.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/chkSignIn.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/login.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.ExtZzLayer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.ExtZzLayer.JobLayer.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/Base.ZzLayer.ExtZzLayer.JobLayer.JobareaLayer.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/jobarea_array_c.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/switchKeywordTypeIndex.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/cv/RefreshResume.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/form.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/iCom20080826.js?20151113"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/quickAndKeywordSearch.js?20160405"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/jquery.lazyload.js"></script>
+<script language="javascript" src="http://js.51jobcdn.com/in/js/2009/index_2012/index_2012.js?20160405"></script>
+<script language="javascript" type="text/javascript">
+<!--
+var imgheight;
+var bdy = (document.documentElement && document.documentElement.clientWidth) ? document.documentElement : document.body;
+document.ns = (navigator.appName == "Netscape") || window.opera;
+window.screen.width > 800 ? imgheight = 5 : imgheight = 5;
+var screenWidth = screen.width;
+var pageWidth = 992;
+function myload()
+{
+	if(document.ns)
+	{
+		document.getElementById("SlipLay").style.top = (self.pageYOffset + imgheight + 174) + 'px';
+		document.getElementById("SlipLay").style.left = (screenWidth-pageWidth)/2 + pageWidth + 'px';
+	}
+	else
+	{
+		document.getElementById("SlipLay").style.top = bdy.scrollTop + bdy.offsetHeight - imgheight;
+		document.getElementById("SlipLay").style.left = (screenWidth-pageWidth)/2 + pageWidth;
+	}
+	mymove();
+}
+
+function mymove()
+{
+	if(document.ns)
+	{
+		document.getElementById("SlipLay").style.top = (self.pageYOffset + imgheight + 57) + 'px';
+		document.getElementById("SlipLay").style.left = (screenWidth-pageWidth)/2 + pageWidth + 'px';
+	}
+	else
+	{
+		document.getElementById("SlipLay").style.top = bdy.scrollTop + imgheight + 57;
+		document.getElementById("SlipLay").style.left = (screenWidth-pageWidth)/2 + pageWidth;
+	}
+	setTimeout("mymove();",50);
+}
+
+function MM_reloadPage(init)
+{
+	if(init == true)
+	{
+		with(navigator)
+		{
+			if((appName == "Netscape") && (parseInt(appVersion) == 4))
+			{
+				document.MM_pgW = innerWidth;
+				document.MM_pgH = innerHeight;
+				onresize = MM_reloadPage;
+			}
+		}
+	}
+	else if(innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH)
+	{
+		location.reload();
+	}
+}
+
+MM_reloadPage(true);
+if(screen.width * 3 > screen.height * 4 || screen.width > 1024)
+{
+	document.write("<div id=SlipLay style='position: absolute;width:120px;top:56px;left:578px;visibility:visible;z-index:100;'><table width='100%' border='0' cellpadding='0' cellspacing='0'>");document.write("<tr><td style='padding-top:5px;padding-bottom:5px;'><a adid='20406266' onmousedown='return AdsClick(20406266)' href='http://m.51job.com/cooperate/top500/index.php' title='����500ǿ��Ƹ��' border='0' target='_blank'><img src='http://img01.51jobcdn.com/im/images/2016/careerpost/banner/500zhaopin/120_250.gif' border='0' width='120' height='250'></a></td></tr>");document.write("<tr><td style='padding-top:5px;padding-bottom:5px;'><a adid='20174885' onmousedown='return AdsClick(20174885)' href='http://my.51job.com/my/gojingying.php?loginrole=1&direct=http%3a%2f%2fwww.51jingying.com%2fauction%2fauctionindex.php%3f5CC4CE%3d1000' title='���Ǿ�Ӣ2016����ר����Ƹ��' border='0' target='_blank'><img src='http://img01.51jobcdn.com/im/pm/jinying/banner2016.3.15/120-250.gif' border='0' width='120' height='250'></a></td></tr>");document.write("</table></div>");
+	myload();
+}
+//-->
+</script>
+
+
+
+</head>
+<body onload="javascript:initAutoCom('0','C');" bgcolor="#FFFFFF">
+
+<!--top start-->
+
+<div id="index_top">
+	<div class="top">
+		<div class="logo">		<a href="http://www.51job.com/default.php" onfocus="blur()"><img src="http://img01.51jobcdn.com/im/2009/logo/logo2009.gif" alt="ǰ������"/></a>
+
+<!--<a href="http://www.51job.com/default.php" onfocus="blur()"><img src="http://img01.51jobcdn.com/im/2009/logo/logo215_65.gif?20160308" alt="ǰ������"/></a>-->
+
+<!--<embed src="http://img01.51jobcdn.com/im/2009/logo/logo150925.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="215" height="65" wmode="transparent"></embed>-->
+
+
+
+<!--<a href="http://www.51job.com"><img src="http://img01.51jobcdn.com/im/2012/index/top_logo.gif" width="130" height="65" border="0" /></a>--></div>
+		<div class="language">
+		<a href="javascript:void(0)" onclick="return j2gb('');" onfocus="blur()">
+        <script language="javascript">
+        <!--
+        if(location.hostname == "big5.51job.com")
+        {
+          document.write("������");
+        }
+        else
+        {
+          document.write("������");
+        }
+        -->
+        </script>
+        </a><br />
+     <a href="http://www.51job.com/default-e.php" onfocus="blur()">English</a>
+		
+		</div>
+		<div class="arc"></div>
+		<ul id="ad_top">
+		<li class='xyad'><a adid="20052669" onmousedown="return AdsClick(20052669)"   href="http://www.51job.com/pm/app/iphone.php" title="���ֺ�ְλ" target="_blank"><img src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/sjkhd/20160222/290_55.gif" border="0" width="290" height="55"></a></li>
+<li class='xyad'><a adid="20460311" onmousedown="return AdsClick(20460311)"   href="http://my.51job.com/careerpost/marketing/2014_employee_benefits/" title="Ա�������ƻ�" target="_blank"><img src="http://img01.51jobcdn.com/im/images/2014/careerpost/banner/2014_employee_benefits/20150609/290_55.gif" border="0" width="290" height="55"></a></li>
+			<li class="mobile"><img src="http://img01.51jobcdn.com/im/2012/index/top_ico_mobile.gif" align="absbottom" style="margin-right:3px;" /><a href="http://www.51job.com/pm/app/index.html" target="_blank">�����ֻ���</a></li>
+		</ul>
+	</div>
+</div>
+<!--top end-->
+<!--content start-->
+<div id="index_content">
+	<!--first start-->
+	<div class="firstscreen">
+	<ul id="ad_left">
+    <li style='height:44px;' class='xyad' ><a adid="20417072" onmousedown="return AdsClick(20417072)"  target = "_blank"  href="http://www.dearsamsung.com.cn/SchoolJob/InternJob" title="���ǣ��й���Ͷ�����޹�˾"  ><img border="0" width="263" height="44" src="http://img03.51jobcdn.com/im/images/2016/bj/sanxing0407_7223wh.gif"   ></a></li><li style='height:44px;'  ><a adid="20359353" onmousedown="return AdsClick(20359353)"  target = "_blank"  href="http://deppon.51job.com/" title="�°������ɷ����޹�˾"  ><img border="0" width="263" height="44" src="http://img03.51jobcdn.com/im/images/2016/sh/debang0308a_7223wh.gif"   ></a></li><li style='height:44px;' class='xyad' ><a adid="20391841" onmousedown="return AdsClick(20391841)"  target = "_blank"  href="http://m.51job.com/cooperate/top500/index.php" title="����500ǿ��Ƹ��"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/500zhaopin/2-263_44.gif"   ></a></li><li style='height:44px;' class='xyad' ><a adid="20126292" onmousedown="return AdsClick(20126292)"  target = "_blank"  href="http://my.51job.com/my/gojingying.php?loginrole=1&direct=http%3a%2f%2fwww.51jingying.com%2fauction%2fauctionindex.php%3f5CC4CE%3d1000" title="���Ǿ�Ӣ2016����ר����Ƹ��"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/pm/jinying/banner2016.3.7/263-44.gif"   ></a></li><li style='height:44px;' class='xyad' ><a adid="20052693" onmousedown="return AdsClick(20052693)"  target = "_blank"  href="http://www.51job.com/pm/app/iphone.php" title="���ֺ�ְλ"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/sjkhd/20160222/263_44.gif"   ></a></li><li style='height:44px;' class='xyad' ><a adid="20334486" onmousedown="return AdsClick(20334486)"  target = "_blank"  href="http://tr.51job.com/train/51px2009/overseas.php" title="ATD֤���γ�"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/51job_atd_lesson/263_44.jpg"   ></a></li><li style='height:44px;' class='xyad' ><a  target = "_blank"  href="http://shixi.51job.com/" title="����ʵϰƵ��"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2015bwgg/b/263_44.gif"   ></a></li><li style='height:44px;' class='xyad' ><a  target = "_blank"  href="http://my.51job.com/payservice/secretary/introduce.php" title="����С����"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/pm/ad/zzfw_263x44.gif"   ></a></li><li style='height:44px;' class='xyad' ><a  target = "_blank"  href="http://xy.51job.com/" title="51jobУ԰��Ƹ"  ><img border="0" width="263" height="44" src="http://img01.51jobcdn.com/im/images/2013/careerpost/banner/xiaoyuan/263_44.gif"   ></a></li>    </ul>
+	<!--main start-->
+	<div id="main">
+		<div class="login">
+						<script>
+				function global_callback(){
+					window.location.href = 'http://my.51job.com/my/My_Pmc.php';
+				}
+				function loginFromIndex(formobj){
+					if(window.cfg.lang == 'c'){
+						var language = "CN";
+					}else{
+						var language = "EN";
+					}
+					createPassPortLayer(language,global_callback,false);
+					$('input[name="passport_loginName"]').attr('value',formobj['username'].value);
+					$('input[name="passport_password"]').attr('value',formobj['userpwd'].value);
+					passportLogin('CN',function(){global_callback();});
+					return false;
+				}
+			</script>
+			<form method="POST" name="loginform" action="https://mylogin.51job.com/56241041556111581267/my/My_Pmc.php" onsubmit="javascript:return loginFromIndex(this);">
+			<div class="btn"><input type="image" src="http://img01.51jobcdn.com/im/2012/index/main_login_btn.gif" border="0" onfocus="blur()" /></div>
+			<div class="username"><div style="float:left; width:48px; padding-top:8px;">��¼��</div><div class="textboxs"><input class="textbox" id="username" name="username" type="text" /></div></div>
+			<div class="password"><div style="float:left; width:48px; padding-top:8px;">�ܡ���</div><div class="textboxs"><input  class="textbox" name="userpwd" id="userpwd" type="password"/></div></div>
+	  	  <div class="operate"><span class="autologinsp1"><input class="login_check" name="autologin" value="1" type="checkbox" /></span><span class="autologinsp">�Զ���¼�� <a href="http://my.51job.com/my/My_ForgetEmail.php" target="_blank">��������</a>��<a href="http://my.51job.com/my/My_SignUp.php">ע��</a>��<a href="http://my.51job.com/cv/CV_Default.php">������</a></span></div>
+		  </form>
+		  		</div>
+		<div class="ehire">
+			<div class="btn"><a href="http://ehire.51job.com/MainLogin.aspx" target="_blank"><img src="http://img01.51jobcdn.com/im/2012/index/main_ehire_btn.gif" border="0" /></a></div>
+			<div class="links">
+			  <!--<a href="http://ehire.51job.com/MainLogin.aspx" target="_blank">��������</a>--><a href="http://hro.51job.com" target="_blank">��������</a>��<a href="http://research.51job.com/" target="_blank">HR��������</a><br/>
+			  <!--��<a href="http://hrclub.51job.com" target="_blank">HR����</a><br/>-->
+	    	  <a href="http://training.51job.com" target="_blank">������ѵ</a>��<a target="_blank" href="http://my.51job.com/careerpost/2010/mkt_awards10/index.php">���ѵ䷶��ҵ</a>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<div class="search_20121126">
+			<form name="frmKeywordSearch" id="frmKeywordSearch" action="http://search.51job.com/jobsearch/search.html?fromJs=1" method="post" target="_blank" onsubmit="return chkKeywordSearch('frmKeywordSearch','�������ؼ���!');">
+			<div style="display:none;">
+			  <input name="keywordtype" type="hidden" value="0" />
+			  <input type="hidden" name="jobarea" value=""/>
+			  <input type="hidden" name="stype" value="1" />
+			</div>
+			<div>
+				<div class="spsearch"><a href="http://search.51job.com/jobsearch/advance_search.php?stype=2">�߼�����</a></div>
+				<ul class="keyword">
+					<li class="sel" id="keyword_type_job" onfocus="blur()" title="������ְλ������������" onclick="switchType('keyword_type_job','sel');">ְλ��</li>
+					<li id="keyword_type_company" onfocus="blur()" title="��������˾���ؼ���" onclick="switchType('keyword_type_company','sel')">��˾��</li>
+					<li onfocus="blur()" id="keyword_type_all" onclick="switchType('keyword_type_all','sel')" title="��ְλ������������" >ȫ��</li>
+				</ul>
+				<div style="clear:both;"></div>
+			</div>
+			<div>
+				
+				<div class="textboxs">
+					<input class="textbox" name="keyword"  type="text" value="�������ؼ���" onclick="focusKeyword(this,'�������ؼ���')"/>
+				</div>
+				<div class="area">
+				    <input type="button" name="btnJobarea" title="" value="ѡ������"  class="anbg" onfocus="blur()" />
+				</div>
+				<div class="btn">
+				<input name="image" type="image" src="http://img01.51jobcdn.com/im/2012/index/main_search_btn.gif" align="middle"  onfocus="blur()" />
+				    
+		  	  </div>
+				<div style="clear:both;"></div>
+			</div>
+			</form>
+		</div>
+		<div class="city">
+						
+			<br/>
+						
+			<b>���ų��У�</b>  
+			<a href="http://www.51job.com/beijing">����</a>
+            <a href="http://www.51job.com/shanghai">�Ϻ�</a>
+            <a href="http://www.51job.com/guangzhou">����</a>
+            <a href="http://www.51job.com/shenzhen">����</a>
+            <a href="http://www.51job.com/wuhan">�人</a>
+            <a href="http://www.51job.com/xian">����</a>
+            <a href="http://www.51job.com/hangzhou">����</a>
+            <a href="http://www.51job.com/nanjing">�Ͼ�</a>
+            <a href="http://www.51job.com/chengdu">�ɶ�</a>
+            <a href="http://www.51job.com/chongqing">����</a><br/>
+
+			���������� <a href="http://www.51job.com/dongguan">��ݸ</a> <a href="http://www.51job.com/dalian">����</a> <a href="http://www.51job.com/shenyang">����</a> <a href="http://www.51job.com/suzhou">����</a> <a href="http://www.51job.com/kunming">����</a> <a href="http://www.51job.com/changsha">��ɳ</a> <a href="http://www.51job.com/hefei">�Ϸ�</a> <a href="http://www.51job.com/ningbo">����</a> <a href="http://www.51job.com/zhengzhou">֣��</a> <a href="http://www.51job.com/tianjin">����</a><br/>
+			���������� <a href="http://www.51job.com/qingdao">�ൺ</a> <a href="http://www.51job.com/jinan">����</a> <a href="http://www.51job.com/harbin">������</a> <a href="http://www.51job.com/changchun">����</a> <a href="http://www.51job.com/fuzhou">����</a> <a href="http://www.51job.com/wuxi">����</a> <a href="http://www.51job.com/foshan">��ɽ</a> <a href="http://www.51job.com/nanchang">�ϲ�</a> <a href="http://www.51job.com/xiamen">����</a> <a  id="all-channel-btn" href="javascript:void(0);" onclick="showAreaDiv($('#all-channel-btn')[0],this)" class="more">>></a><br/>
+
+			<b>ƴ�������� </b><div class="key"><div style="width:167px; position:relative;">
+  <div class="popup" id="popup_A" onmouseover="imgover('popup_A','A')" onmouseout="imgout('popup_A')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">A</span>
+		<a class="a_newcity" href="http://www.51job.com/anshan">��ɽ</a>	
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_B" onmouseover="imgover('popup_B','B')" onmouseout="imgout('popup_B')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">B</span>
+	<a class="a_city" href="http://www.51job.com/beijing">����</a>
+	<a class="a_city" href="http://www.51job.com/baotou">��ͷ</a>
+	<a class="a_city" href="http://www.51job.com/baoding">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_C" onmouseover="imgover('popup_C','C')" onmouseout="imgout('popup_C')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">C</span>
+	<a class="a_city" href="http://www.51job.com/changchun">����</a> 
+	<a class="a_city" href="http://www.51job.com/changsha">��ɳ</a>
+	<a class="a_city" href="http://www.51job.com/chengdu">�ɶ�</a>
+	<a class="a_city" href="http://www.51job.com/chongqing">����</a>
+	<a class="a_city" href="http://www.51job.com/changzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/changde">����</a>
+	<a class="a_city" href="http://www.51job.com/changshu">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_D" onmouseover="imgover('popup_D','D')" onmouseout="imgout('popup_D')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">D</span>
+	<a class="a_city" href="http://www.51job.com/dalian">����</a>  
+	<a class="a_city" href="http://www.51job.com/dongguan">��ݸ</a>
+	<a class="a_newcity" href="http://www.51job.com/dandong">����</a>
+	<a class="a_newcity" href="http://www.51job.com/daqing">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_E" onmouseover="imgover('popup_E','E')" onmouseout="imgout('popup_E')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">E</span>
+	<a class="a_newcity" href="http://www.51job.com/eerduosi">������˹</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_F" onmouseover="imgover('popup_F','F')" onmouseout="imgout('popup_F')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">F</span>
+	<a class="a_city" href="http://www.51job.com/fuzhou">����</a> 
+	<a class="a_city" href="http://www.51job.com/foshan">��ɽ</a>
+	<a class="a_newcity" href="http://www.51job.com/fushun">��˳</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_G" onmouseover="imgover('popup_G','G')" onmouseout="imgout('popup_G')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">G</span>
+	<a class="a_city" href="http://www.51job.com/guangzhou">����</a> 
+	<a class="a_city" href="http://www.51job.com/guiyang">����</a>
+	<a class="a_newcity" href="http://www.51job.com/ganzhou">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_H" onmouseover="imgover('popup_H','H')" onmouseout="imgout('popup_H')">
+    <div class="popup_left"></div>
+    <div class="popup_center_H">
+    <div class="popup_content">
+      <span class="letter">H</span>
+	<a class="a_city" href="http://www.51job.com/harbin">������</a>
+	<a class="a_city" href="http://www.51job.com/hangzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/hefei">�Ϸ�</a>
+	<a class="a_city" href="http://www.51job.com/haikou">����</a>
+	<a class="a_city" href="http://www.51job.com/huhhot">���ͺ���</a>
+	<a class="a_city" href="http://www.51job.com/hengyang">����</a>
+	<a class="a_city" href="http://www.51job.com/huizhou">����</a>
+	<a class="a_city" href="http://www.51job.com/huaian">����</a>
+	<a class="a_city" href="http://www.51job.com/huzhou">����</a>
+	<a class="a_newcity" href="http://www.51job.com/handan">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_J" onmouseover="imgover('popup_J','J')" onmouseout="imgout('popup_J')">
+    <div class="popup_left"></div>
+    <div class="popup_center_J">
+    <div class="popup_content">
+      <span class="letter">J</span>
+	<a class="a_city" href="http://www.51job.com/jinan">����</a>
+	<a class="a_city" href="http://www.51job.com/jiaxing">����</a>
+	<a class="a_city" href="http://www.51job.com/jinhua">����</a>
+	<a class="a_city" href="http://www.51job.com/jilin">����</a>
+	<a class="a_city" href="http://www.51job.com/jingzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/jiangmen">����</a>
+	<a class="a_city" href="http://www.51job.com/jiangyin">����</a>
+	<a class="a_city" href="http://www.51job.com/jining">����</a>
+	<a class="a_newcity" href="http://www.51job.com/jiujiang">�Ž�</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_K" onmouseover="imgover('popup_K','K')" onmouseout="imgout('popup_K')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">K</span>
+	<a class="a_city" href="http://www.51job.com/kunming">����</a>
+	<a class="a_city" href="http://www.51job.com/kunshan">��ɽ</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_L" onmouseover="imgover('popup_L','L')" onmouseout="imgout('popup_L')">
+    <div class="popup_left"></div>
+    <div class="popup_center_L">
+    <div class="popup_content">
+      <span class="letter">L</span>
+	<a class="a_city" href="http://www.51job.com/lanzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/linyi">����</a>
+	<a class="a_city" href="http://www.51job.com/luoyang">����</a>
+	<a class="a_city" href="http://www.51job.com/langfang">�ȷ�</a>
+	<a class="a_city" href="http://www.51job.com/lianyungang">���Ƹ�</a>
+	<a class="a_newcity" href="http://www.51job.com/liuzhou">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_M" onmouseover="imgover('popup_M','M')" onmouseout="imgout('popup_M')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">M</span>
+	<a class="a_city" href="http://www.51job.com/mianyang">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_N" onmouseover="imgover('popup_N','N')" onmouseout="imgout('popup_N')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">N</span>
+	<a class="a_city" href="http://www.51job.com/nanjing">�Ͼ�</a>
+	<a class="a_city" href="http://www.51job.com/ningbo">����</a>
+	<a class="a_city" href="http://www.51job.com/nanchang">�ϲ�</a>
+	<a class="a_city" href="http://www.51job.com/nantong">��ͨ</a>
+	<a class="a_city" href="http://www.51job.com/nanning">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_Q" onmouseover="imgover('popup_Q','Q')" onmouseout="imgout('popup_Q')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">Q</span>
+	<a class="a_city" href="http://www.51job.com/qingdao">�ൺ</a>  
+	<a class="a_city" href="http://www.51job.com/quanzhou">Ȫ��</a>
+	<a class="a_city" href="http://www.51job.com/qinhuangdao">�ػʵ�</a></td>
+	<a class="a_city" href="http://www.51job.com/qingyuan">��Զ</a></td>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_S" onmouseover="imgover('popup_S','S')" onmouseout="imgout('popup_S')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">S</span>
+	<a class="a_city" href="http://www.51job.com/shanghai">�Ϻ�</a>
+	<a class="a_city" href="http://www.51job.com/shenzhen">����</a> 
+	<a class="a_city" href="http://www.51job.com/shenyang">����</a>  
+	<a class="a_city" href="http://www.51job.com/shijiazhuang">ʯ��ׯ</a>  
+	<a class="a_city" href="http://www.51job.com/suzhou">����</a> 
+	<a class="a_city" href="http://www.51job.com/sanya">����</a>  
+	<a class="a_city" href="http://www.51job.com/shaoxing">����</a>
+	<a class="a_city" href="http://www.51job.com/shantou">��ͷ</a>
+	<a class="a_city" href="http://www.51job.com/shunde">˳��</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_T" onmouseover="imgover('popup_T','T')" onmouseout="imgout('popup_T')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">T</span>
+	<a class="a_city" href="http://www.51job.com/tianjin">����</a> 
+	<a class="a_city" href="http://www.51job.com/taiyuan">̫ԭ</a>
+	<a class="a_city" href="http://www.51job.com/tz">̨��</a>
+	<a class="a_city" href="http://www.51job.com/tangshan">��ɽ</a>
+	<a class="a_city" href="http://www.51job.com/taizhou">̩��</a>
+	<a class="a_newcity" href="http://www.51job.com/tieling">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_W" onmouseover="imgover('popup_W','W')" onmouseout="imgout('popup_W')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">W</span>
+	<a class="a_city" href="http://www.51job.com/wuhan">�人</a> 
+	<a class="a_city" href="http://www.51job.com/wuxi">����</a> 
+	<a class="a_city" href="http://www.51job.com/wenzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/urumqi">��³ľ��</a>
+	<a class="a_city" href="http://www.51job.com/wuhu">�ߺ�</a>
+	<a class="a_city" href="http://www.51job.com/weifang">Ϋ��</a>
+	<a class="a_city" href="http://www.51job.com/weihai">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_X" onmouseover="imgover('popup_X','X')" onmouseout="imgout('popup_X')">
+    <div class="popup_left"></div>
+    <div class="popup_center">
+    <div class="popup_content">
+      <span class="letter">X</span>
+	<a class="a_city" href="http://www.51job.com/xian">����</a> 
+	<a class="a_city" href="http://www.51job.com/xiamen">����</a>
+	<a class="a_city" href="http://www.51job.com/xuzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/xiangyang">����</a>
+	<a class="a_city" href="http://www.51job.com/xiangtan">��̶</a>
+	<a class="a_newcity" href="http://www.51job.com/xianyang">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_Y" onmouseover="imgover('popup_Y','Y')" onmouseout="imgout('popup_Y')">
+    <div class="popup_left"></div>
+    <div class="popup_center_Y">
+    <div class="popup_content">
+      <span class="letter">Y</span>
+	<a class="a_city" href="http://www.51job.com/yantai">��̨</a>
+	<a class="a_city" href="http://www.51job.com/yangzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/yichang">�˲�</a>
+	<a class="a_city" href="http://www.51job.com/yancheng">�γ�</a>
+	<a class="a_city" href="http://www.51job.com/yiwu">����</a>
+	<a class="a_newcity" href="http://www.51job.com/yingkou">Ӫ��</a>
+	<a class="a_newcity" href="http://www.51job.com/yinchuan">����</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+  <div class="popup" id="popup_Z" onmouseover="imgover('popup_Z','Z')" onmouseout="imgout('popup_Z')">
+    <div class="popup_left"></div>
+    <div class="popup_center_Z">
+    <div class="popup_content">
+      <span class="letter">Z</span>
+	<a class="a_city" href="http://www.51job.com/zhangzhou">����</a> 
+	<a class="a_city" href="http://www.51job.com/zhengzhou">֣��</a>
+	<a class="a_city" href="http://www.51job.com/zhongshan">��ɽ</a>
+	<a class="a_city" href="http://www.51job.com/zhuhai">�麣</a>
+	<a class="a_city" href="http://www.51job.com/zhenjiang">����</a>
+	<a class="a_city" href="http://www.51job.com/zhuzhou">����</a>
+	<a class="a_city" href="http://www.51job.com/zhangjiagang">�żҸ�</a>
+	<a class="a_city" href="http://www.51job.com/zhanjiang">տ��</a>
+	<a class="a_city" href="http://www.51job.com/zhaoqing">����</a>
+	<a class="a_city" href="http://www.51job.com/zibo">�Ͳ�</a>
+    </div>
+    </div>
+    <div class="popup_right"></div>
+  </div>
+<img src="http://img01.51jobcdn.com/im/2009/key.gif?20120829" width="294" height="50" border="0" usemap="#Map" />
+</div>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="0,0,24,23" href="#" onmouseover="imgover('popup_A','A')" onmouseout="imgout('popup_A')"/>
+  <area shape="rect" coords="29,0,53,23" href="#" onmouseover="imgover('popup_B','B')" onmouseout="imgout('popup_B')"/>
+  <area shape="rect" coords="59,0,84,23" href="#" onmouseover="imgover('popup_C','C')" onmouseout="imgout('popup_C')"/>
+  <area shape="rect" coords="88,0,113,23" href="#" onmouseover="imgover('popup_D','D')" onmouseout="imgout('popup_D')"/>
+  <area shape="rect" coords="118,0,143,23" href="#" onmouseover="imgover('popup_E','E')" onmouseout="imgout('popup_E')"/>
+  <area shape="rect" coords="148,0,173,23" href="#" onmouseover="imgover('popup_F','F')" onmouseout="imgout('popup_F')"/>
+  <area shape="rect" coords="178,0,203,23" href="#" onmouseover="imgover('popup_G','G')" onmouseout="imgout('popup_G')"/>
+  <area shape="rect" coords="208,0,233,23" href="#" onmouseover="imgover('popup_H','H')" onmouseout="imgout('popup_H')"/>
+  <area shape="rect" coords="238,0,263,23" href="#" onmouseover="imgover('popup_J','J')" onmouseout="imgout('popup_J')"/>
+  <area shape="rect" coords="268,0,293,23" href="#" onmouseover="imgover('popup_K','K')" onmouseout="imgout('popup_K')"/>
+  
+  <area shape="rect" coords="0,27,24,50" href="#" onmouseover="imgover('popup_L','L')" onmouseout="imgout('popup_L')"/>  
+  <area shape="rect" coords="29,27,53,50" href="#" onmouseover="imgover('popup_M','M')" onmouseout="imgout('popup_M')"/>
+  <area shape="rect" coords="59,27,84,50" href="#" onmouseover="imgover('popup_N','N')" onmouseout="imgout('popup_N')"/>
+  <area shape="rect" coords="88,27,113,50" href="#" onmouseover="imgover('popup_Q','Q')" onmouseout="imgout('popup_Q')"/>
+  <area shape="rect" coords="118,27,143,50" href="#" onmouseover="imgover('popup_S','S')" onmouseout="imgout('popup_S')"/>
+  <area shape="rect" coords="148,27,173,50" href="#" onmouseover="imgover('popup_T','T')" onmouseout="imgout('popup_T')"/>
+  <area shape="rect" coords="178,27,203,50" href="#" onmouseover="imgover('popup_W','W')" onmouseout="imgout('popup_W')"/>
+  <area shape="rect" coords="208,27,233,50" href="#" onmouseover="imgover('popup_X','X')" onmouseout="imgout('popup_X')"/>
+  <area shape="rect" coords="238,27,263,50" href="#" onmouseover="imgover('popup_Y','Y')" onmouseout="imgout('popup_Y')"/>
+  <area shape="rect" coords="268,27,293,50" href="#" onmouseover="imgover('popup_Z','Z')" onmouseout="imgout('popup_Z')"/>
+</map> </div>
+			<div style="clear:left;"></div></div>
+
+		<div class="other">
+			<div class="other_1l">
+				<a href="http://shixi.51job.com" target="_blank"><img style="vertical-align:middle;" src="http://img01.51jobcdn.com/im/2012/index/new/t01.gif" border="0" /></a><a href="http://xy.51job.com"  target="_blank"><img style="vertical-align:middle;" src="http://img01.51jobcdn.com/im/2012/index/new/t02.gif" border="0" /></a><a href="http://www.51jingying.com" target="_blank"><img style="vertical-align:middle;" src="http://img01.51jobcdn.com/im/2012/index/new/t03.gif" border="0" /></a><a href="http://jobs.51job.com" target="_blank"><img style="vertical-align:middle;" src="http://img01.51jobcdn.com/im/2012/index/new/t04.gif" border="0" /></a>
+			</div>
+				<div class="other_2l"><a target="_blank" href="http://tr.51job.com/default-tr.php">����ѵ</a><a href="http://www.51job.com/default-gj.php"  target="_blank">����ͷ</a><a href="http://www.51job.com/default-it.php" target="_blank">��IT</a><a href="http://www.51job.com/default_res.php" target="_blank">��ְ����Ѷ</a><a href="http://jianli.51job.com/" target="_blank">������ģ��</a><a href="http://qiuzhixin.51job.com/" target="_blank">����ְ��</a><a  href="http://bbs.51job.com"  target="_blank">��BBS</a><a href="http://fans.51job.com/payservice/fans/fans_index.php" target="_blank">����˿��</a></div> </div>
+			</div>
+	 
+<div id="all-channel" align="left"  style="overflow:hidden;border:#82868D solid 1px;	font-size:12px;width:470px;display:none;z-index:999;background:url(http://img01.51jobcdn.com/im/2009/my/folder/gray_bg02.gif) repeat-x;" >
+  <p  style="height:28px;	color:#FF5F00;font-size:14px;font-weight:bold;padding-left:20px;line-height:28px;background:none; border-bottom:1px solid #C6C9CC; padding-left:10px;"><span class="top_login_close"><img src="http://img01.51jobcdn.com/im/2009/emy/folder/icon_close.gif" align="absmiddle"  onclick="document.getElementById('all-channel').style.display='none';"/></span>��ƴ��ѡ��</p>
+  <div style="width:470px; padding-left:5px;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="diqucengcu">
+  <tr>
+    <td width="20" align="center"><strong>A</strong></td>
+    <td width="180"> 
+		<a href="http://www.51job.com/anshan"><span>��ɽ</span></a> 		
+	</td>	
+    <td align="center"><strong>L</strong></td>
+    <td>
+		<a href="http://www.51job.com/lanzhou">����</a>
+		<a href="http://www.51job.com/langfang">�ȷ�</a>
+		<a href="http://www.51job.com/linyi">����</a>
+		<a href="http://www.51job.com/luoyang">����</a>
+		<a href="http://www.51job.com/lianyungang">���Ƹ�</a>
+		<a href="http://www.51job.com/liuzhou"><span>����</span></a>
+	</td>
+  </tr>
+  <tr class="danshuang">
+    <td width="20" align="center"><strong>B</strong></td>
+    <td width="180"> 
+		<a href="http://www.51job.com/beijing"><strong style="color:#000;">����</strong></a> 
+		<a href="http://www.51job.com/baotou">��ͷ</a>
+		<a href="http://www.51job.com/baoding">����</a>
+	</td>
+	<td width="20" align="center"><strong>M</strong></td>
+    <td>
+		<a href="http://www.51job.com/mianyang">����</a>
+	</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>C</strong></td>
+    <td><a href="http://www.51job.com/changchun">����</a> 
+		<a href="http://www.51job.com/changsha">��ɳ</a>
+		<a href="http://www.51job.com/chengdu">�ɶ�</a>
+		<a href="http://www.51job.com/chongqing">����</a>
+		<a href="http://www.51job.com/changzhou">����</a>
+		<a href="http://www.51job.com/changde">����</a>
+	</td>
+    <td align="center"><strong>N</strong></td>
+    <td><a href="http://www.51job.com/nanjing">�Ͼ�</a> <a href="http://www.51job.com/ningbo">����</a> <a href="http://www.51job.com/nanchang">�ϲ�</a> <a href="http://www.51job.com/nantong">��ͨ</a> <a href="http://www.51job.com/nanning">����</a></td>
+  </tr>
+  <tr class="danshuang">
+    <td align="center"></td>
+	<td><a href="http://www.51job.com/changshu">����</a></td>
+	<td align="center"><strong>Q</strong></td>
+    <td><a href="http://www.51job.com/qingdao">�ൺ</a>  
+       <a href="http://www.51job.com/quanzhou">Ȫ��</a>
+	   <a href="http://www.51job.com/qinhuangdao">�ػʵ�</a>
+	   <a href="http://www.51job.com/qingyuan">��Զ</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>D</strong></td>
+    <td>
+	<a href="http://www.51job.com/dalian">����</a>  
+	<a href="http://www.51job.com/dongguan">��ݸ</a>
+   <a href="http://www.51job.com/dandong"><span>����</span></a>
+   <a href="http://www.51job.com/daqing"><span>����</span></a>
+	</td>
+    <td align="center"><strong>S</strong></td>
+    <td><a href="http://www.51job.com/shanghai"><strong style="color:#000;">�Ϻ�</strong></a>
+	    <a href="http://www.51job.com/shenzhen"><strong style="color:#000;">����</strong></a> 
+		<a href="http://www.51job.com/shenyang">����</a>  
+	   <a href="http://www.51job.com/shijiazhuang">ʯ��ׯ</a>  
+	   <a href="http://www.51job.com/suzhou">����</a> 
+		<a href="http://www.51job.com/sanya">����</a>  
+	   <a href="http://www.51job.com/shaoxing">����</a>
+	   
+	</td>
+  </tr>
+  <tr class="danshuang">
+    <td align="center"><strong>E</strong></td>
+    <td><a href="http://www.51job.com/eerduosi"><span>������˹</span></a></td>
+    <td align="center"></td>
+    <td><a href="http://www.51job.com/shantou">��ͷ</a>
+	<a href="http://www.51job.com/shunde">˳��</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>F</strong></td>
+    <td><a href="http://www.51job.com/fuzhou">����</a> 
+		<a href="http://www.51job.com/foshan">��ɽ</a>
+		<a href="http://www.51job.com/fushun"><span>��˳</span></a>
+	</td>
+	<td align="center"><strong>T</strong></td>
+    <td><a href="http://www.51job.com/tianjin">����</a> 
+		<a href="http://www.51job.com/taiyuan">̫ԭ</a>
+		<a href="http://www.51job.com/tz">̨��</a>
+		<a href="http://www.51job.com/tangshan">��ɽ</a>
+		<a href="http://www.51job.com/taizhou">̩��</a>
+		<a href="http://www.51job.com/tieling"><span>����</span></a>
+	</td>
+  </tr>
+  <tr class="danshuang">
+    <td align="center"><strong>G</strong></td>
+    <td><a href="http://www.51job.com/guangzhou"><strong style="color:#000;">����</strong></a> 
+		<a href="http://www.51job.com/guiyang">����</a>
+		<a href="http://www.51job.com/ganzhou"><span>����</span></a>
+	</td>
+	<td align="center"><strong>W</strong></td>
+    <td>
+		<a href="http://www.51job.com/wuhan">�人</a> 
+		<a href="http://www.51job.com/wuxi">����</a> 
+		<a href="http://www.51job.com/wenzhou">����</a>
+		<a href="http://www.51job.com/urumqi">��³ľ��</a>
+		<a href="http://www.51job.com/wuhu">�ߺ�</a>
+		<a href="http://www.51job.com/weifang">Ϋ��</a>
+		<a href="http://www.51job.com/weihai">����</a>
+	</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>H</strong></td>
+    <td>
+		<a href="http://www.51job.com/harbin">������</a>
+		<a href="http://www.51job.com/hangzhou">����</a>
+		<a href="http://www.51job.com/hefei">�Ϸ�</a>
+		<a href="http://www.51job.com/haikou">����</a>
+		<a href="http://www.51job.com/huhhot">���ͺ���</a>
+    </td>
+    <td align="center"><strong>X</strong></td>
+    <td><a href="http://www.51job.com/xian">����</a> 
+		<a href="http://www.51job.com/xiamen">����</a>
+		<a href="http://www.51job.com/xuzhou">����</a>
+		<a href="http://www.51job.com/xiangyang">����</a>
+		<a href="http://www.51job.com/xiangtan">��̶</a>
+		<a href="http://www.51job.com/xianyang"><span>����</span></a>
+	</td>
+  </tr>
+  <tr class="danshuang">
+    <td align="center"></td>
+    <td>
+		<a href="http://www.51job.com/huizhou">����</a>
+		<a href="http://www.51job.com/hengyang">����</a>
+		<a href="http://www.51job.com/huaian">����</a>
+		<a href="http://www.51job.com/huzhou">����</a>
+		<a href="http://www.51job.com/handan"><span>����</span></a>
+    </td>
+	<td align="center"><strong>Y</strong></td>
+    <td><a href="http://www.51job.com/yantai">��̨</a>
+		<a href="http://www.51job.com/yangzhou">����</a>
+		<a href="http://www.51job.com/yichang">�˲�</a>
+		<a href="http://www.51job.com/yancheng">�γ�</a>
+		<a href="http://www.51job.com/yiwu">����</a>
+		<a href="http://www.51job.com/yingkou"><span>Ӫ��</span></a>
+		<a href="http://www.51job.com/yinchuan"><span>����</span></a>
+	</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>J</strong></td>
+    <td>		
+		<a href="http://www.51job.com/jinan">����</a>
+		<a href="http://www.51job.com/jiaxing">����</a>
+		<a href="http://www.51job.com/jinhua">����</a>
+		<a href="http://www.51job.com/jilin">����</a>
+		<a href="http://www.51job.com/jiangmen">����</a>
+		<a href="http://www.51job.com/jingzhou">����</a>
+	</td>
+	<td align="center"><strong>Z</strong></td>
+    <td>
+	<a href="http://www.51job.com/zhangzhou">����</a> 
+	<a href="http://www.51job.com/zhengzhou">֣��</a>
+	<a href="http://www.51job.com/zhongshan">��ɽ</a>
+	<a href="http://www.51job.com/zhuhai">�麣</a>
+	<a href="http://www.51job.com/zhenjiang">����</a>
+	<a href="http://www.51job.com/zhuzhou">����</a>
+	<a href="http://www.51job.com/zhanjiang">տ��</a>
+	<a href="http://www.51job.com/zhaoqing">����</a>
+
+	</td>
+  </tr>
+  <tr class="danshuang">
+    <td align="center"></td>
+    <td>
+	  <a href="http://www.51job.com/jiangyin">����</a>
+	  <a href="http://www.51job.com/jining">����</a>
+	  <a href="http://www.51job.com/jiujiang"><span>�Ž�</span></a>
+	</td>
+	<td align="center"></td>
+    <td>
+	  <a href="http://www.51job.com/zhangjiagang">�żҸ�</a>
+	  <a href="http://www.51job.com/zibo">�Ͳ�</a>
+	</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>K</strong></td>
+    <td><a href="http://www.51job.com/kunming">����</a>
+		<a href="http://www.51job.com/kunshan">��ɽ</a>
+	</td>
+  </tr>
+</table>
+  </div>
+	<iframe src="about:blank" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" style="position:absolute;  top:0px; left:0px; width:415px; height:112px; z-index:-1;filter='progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)';"></iframe>	
+</div>	<!--main end-->
+	<ul id="ad_right">
+    <script type="text/javascript" src="/in/js/2009/writeflash.js"></script>
+<li style='height:80px;' class='xyad' ><a adid="19774024" onmousedown="return AdsClick(19774024)"  href="http://research.51job.com/insight.html" title='2016��ְ����н���б���' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2016_lizhitiaoxin/137_80.gif"   ></a></li><li style='height:80px;' class='xyad' ><a adid="19896909" onmousedown="return AdsClick(19896909)"  href="http://research.51job.com/ssr_7.asp" title='2016��ҵн������' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/2016_xinchoudiaocha/137_80.gif"   ></a></li><li style='height:80px;' ><a  href="http://shixi.51job.com/" title='����ʵϰƵ��' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2015bwgg/2016_new/137_80A.gif"   ></a></li><li style='height:80px;' ><a  href="http://www.51job.com/pm/app/3g.php" title='�ֻ��ҹ���������m.51job.com' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2015bwgg/2016_new/137_80B.gif"   ></a></li><li style='height:80px;' ><a  href="http://www.51job.com/pm/app/android.php" title='�������룬��������' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2014/careerpost/banner/helaoshi/137_80.gif"   ></a></li><li style='height:80px;' ><a  href="http://www.51job.com/careerpost/jianlishuoming/" title='����ģ��' border='0' target='_blank' ><img border="0" width="137" height="80" src="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/jianli/jlmb_137x80.gif"   ></a></li><li style='height: 168px\9' >
+		<div class="info module" style="height:166px;_height:168;">
+		  <div class="title">ְ����Ѷ</div>
+   				<ul class="content" style="_height:132px;">
+				<li style="_height:130;height:140px;"><div>��<a id="newart" href="http://arts.51job.com/arts/05/414778.html" target="_blank" title="[����]����д�����������Ա�HR������">[����]����д�����������Ա�HR��...</a></div>
+            <div>��<a id="newart" href="http://arts.51job.com/arts/05/414776.html" target="_blank" title="����н����Ҫ���Կ��������˽����飡">����н����Ҫ���Կ��������˽���...</a></div>
+            <div>��<a id="newart" href="http://arts.51job.com/arts/05/414775.html" target="_blank" title="�Ҳ���������Ҳ������Э��������ְ�ɻ�">�Ҳ���������Ҳ������Э��������...</a></div>
+            <div>��<a id="newart" href="http://arts.51job.com/arts/05/414774.html" target="_blank" title="[����]ƭ�ˣ������Ĳ���Ϊ��Ǯ���ۣ�">[����]ƭ�ˣ������Ĳ���Ϊ��Ǯ��...</a></div>
+            <div>��<a id="newart" href="http://arts.51job.com/arts/05/414770.html" target="_blank" title="[����]�������٣�ֻ�����ǣ�">[����]�������٣�ֻ�����ǣ�</a></div>
+            <div>��<a id="newart" href="http://arts.51job.com/arts/05/414767.html" target="_blank" title="�߹���vs�߷�չ����Ҫ�ĸ���">�߹���vs�߷�չ����Ҫ�ĸ���</a></div>
+            </li>
+				</ul>
+		</div></li>	</ul>
+	<div style="clear:both;"></div>
+    
+  <!--flashbanner��ʼ-->
+<!--  	<div id="flashbanner"><a href="http://www.51job.com"><img src="http://img01.51jobcdn.com/im/2012/index/51job_ad.gif" border="0" width="965" height="50" /></a></div>	
+-->
+    <div class="flashbanner">
+
+
+
+
+  
+  <!--<div style="position:absolute; width:964px; height:127px; z-index:1;">
+<a href="http://www.mercedes-benz.dealer.zhaopin.com/" target="_blank"><img src='http://img01.51jobcdn.com/im/2009/spear.gif' width='964' height='127' border='0'></a>
+</div>
+<div style="position:absolute; width:964px; height:50px; z-index:1;">
+	<a href="http://my.51job.com/careerpost/2010/mkt_awards10/bangdan2011.php" target="_blank"><img src='http://img01.51jobcdn.com/im/2009/spear.gif' width='964' height='50' border='0'>
+</a></div>-->
+<!--<embed src="http://img01.51jobcdn.com/im/2009/logo/2012newyear.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="964" height="60" wmode="transparent"></embed>-->
+<div style="position:absolute; width:964px; height:50px; z-index:1;">
+	<img src='http://img01.51jobcdn.com/im/2009/spear.gif' width='964' height='50' border='0'>
+</div>
+<embed src="http://img01.51jobcdn.com/im/2009/logo/964_50_cn.swf?20160411" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="964" height="50" wmode="transparent"></embed></div>
+    </div> 
+  
+	<!--first end-->	
+	<!--ad_a start-->
+	<div id="ad_a">
+		
+		
+	<table align="center"> <tr><td class="xyad"><a adid="20126253" onmousedown="return AdsClick(20126253)"  href="http://my.51job.com/my/gojingying.php?loginrole=1&direct=http%3a%2f%2fwww.51jingying.com%2fauction%2fauctionindex.php%3f5CC4CE%3d1000" title="���Ǿ�Ӣ2016����ר����Ƹ��" target="_blank" attr="ad_a"><img border="0"  width="965" height="60" original="http://img01.51jobcdn.com/im/pm/jinying/banner2016.3.15/965-60.gif" /></a></td></tr></table>
+<table border='0' width='762' align='center' cellspacing='0' cellpadding='3'><tr>
+<td colspan='2' rowspan='2' width='317' class="xyad" height='127' align='left'><a adid="20590346" onmousedown="return AdsClick(20590346)"  href='http://campus.51job.com/zhengqi2016/index.html' title='�й��ƶ�ͨ�����޹�˾�����ͻ��ֹ�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/bj/chinaMobile0203_7409wh.gif' border='0' height='127' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20115501" onmousedown="return AdsClick(20115501)"  href='http://companyadc.51job.com/companyads/2016/gz/jiuz0229c_7422wh/index.htm' title='�������ڴ�ý�Ƽ��������ι�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/gz/jiuzh0301_7422wh.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60'  align='left'><a adid="20437848" onmousedown="return AdsClick(20437848)"  href='http://recruitment.cn.nuskin.com/html/jianti/school/school.html' title='���£��й������ñ���Ʒ���޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/sh/ruxin0408_7434wh.gif' border='0' height='60' width='317' /></a></td>
+</tr>
+<tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20560353" onmousedown="return AdsClick(20560353)"  href='http://companyadc.51job.com/companyads/2016/cd/xizangc0425_7340wh/index.htm' title='�������йɷ����޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/xa/xizangc0426a_7340wh.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20543852" onmousedown="return AdsClick(20543852)" class="index_ad_popup" onmouseover="over4Ajax('http://www.51job.com/phpAD',this,20543852)" href='http://companyadc.51job.com/companyads/2016/km/shibo0422_7376wh/index.htm' title='�����������οعɼ������޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/km/shibo0415b_7374wh.gif' border='0' height='60' width='317' /></a></td>
+</tr>
+
+</table>
+<table border='0' width='762' align='center' cellspacing='0' cellpadding='3'><tr>
+<td colspan='2' rowspan='2' width='317' class="xyad" height='127' align='left'><a adid="20514923" onmousedown="return AdsClick(20514923)"  href='http://companyadc.51job.com/companyads/2016vip/hz/taobao0419_7162wh/index.htm#join-process' title='�����Ͱͣ��й������缼�����޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/wh/taobao0405b_7162wh.gif' border='0' height='127' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20544296" onmousedown="return AdsClick(20544296)"  href='http://campus.51job.com/jahwa16' title='�Ϻ��һ����Ϲɷ����޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/sh/jia0422_7201wh.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20334477" onmousedown="return AdsClick(20334477)"  href='http://tr.51job.com/train/51px2009/overseas.php' title='ATD֤���γ�' border='0' target='_blank'><img    original='http://img01.51jobcdn.com/im/images/2016/careerpost/banner/51job_atd_lesson/317_60.jpg' border='0' height='60' width='317' /></a></td>
+</tr>
+<tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20561361" onmousedown="return AdsClick(20561361)"  href='http://campus.51job.com/hnzy' title='�������̹�ҵ�������ι�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/cs/zy0426_7416wh.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20430333" onmousedown="return AdsClick(20430333)"  href='http://www.bmw-brilliance.cn/cn/zh/hr/opportunity.html' title='���������������޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/sy/bmw0420_7336wh.gif' border='0' height='60' width='317' /></a></td>
+</tr>
+
+</table>
+<table border='0' width='762' align='center' cellspacing='0' cellpadding='3'><tr>
+<td colspan='2' rowspan='2' width='317' class="xyad" height='127' align='left'><a adid="18807508" onmousedown="return AdsClick(18807508)"  href='http://companyadc.51job.com/companyads/2016vip/sh/coachcampus0420d_7162wh/index.htm' title='ޢ��ó�ף��Ϻ������޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/sh/coach0421_7162wh.gif' border='0' height='127' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20505649" onmousedown="return AdsClick(20505649)"  href='http://hisense.zhiye.com' title='���ż������޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/qd/haixin0311_7223wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60'  align='left' ><a adid="20534800" onmousedown="return AdsClick(20534800)"  href='http://hr.hnagroup.com/zpggdetail/230000235' title='����ʵҵ�������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/gz/shiye0421_7218wh.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20514961" onmousedown="return AdsClick(20514961)"  href='http://sika.51job.com/' title='�������й������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/shzh/xika0421_7427wh.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+<tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20558129" onmousedown="return AdsClick(20558129)"  href='http://companyadc.51job.com/companyads/2016vip/bj/yiqi0425a_7433wh/job.htm' title='һ�����������������޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/bj/yiqi0425_7433wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20417451" onmousedown="return AdsClick(20417451)"  href='http://companyadc.51job.com/companyads/2016vip/sh/snptc0406_7223wh/index.htm' title='���˹������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2015/sh/guoh1126a_7172wh.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20569201" onmousedown="return AdsClick(20569201)" class="index_ad_popup" onmouseover="over4Ajax('http://www.51job.com/phpAD',this,20569201)" href='http://companyadc.51job.com/companyads/2016/wh/xilinmen0425c_7342wh/index.htm' title='ϲ���żҾ߹ɷ����޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/bj/xi0427_7408wh.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+
+</table>
+<table border='0' width='762' align='center' cellspacing='0' cellpadding='3'><tr>
+<td colspan='2' rowspan='2' width='317' class="xyad" height='127' align='left'><a adid="20526235" onmousedown="return AdsClick(20526235)"  href='http://companyadc.51job.com/companyads/2016/zz/yutong0421d_7430wh/index.htm' title='֣����ͨ�ͳ��ɷ����޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/zz/yutong0420b_8516.gif' border='0' height='127' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20451316" onmousedown="return AdsClick(20451316)"  href='https://zhaopin.hxb.com.cn' title='������������' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/bj/huaxia0411_7427wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20534780" onmousedown="return AdsClick(20534780)"  href='https://chinajobs.disneycareers.cn//?ss=paid&utm_source=51job.com&utm_medium=banner&utm_campaign=FY16TWDC&utm_content=155x60' title='���ص�ʿ��' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/sh/dishili0303a_7331wh.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20439043" onmousedown="return AdsClick(20439043)"  href='http://companyadc.51job.com/companyads/2016/sh/boweif0427_7417wh/index.htm' title='�Ϻ���Ϊ�����������ɷ����޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/sh/boweifeng0427_7417wh.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+<tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20391776" onmousedown="return AdsClick(20391776)"  href='http://companyadc.51job.com/companyads/2016vip/sh/dkn0219d_7132wh/job.htm' title='�Ͽ�ٯ���Ϻ���������Ʒ���޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/sh/dkn0229_7132wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20382099" onmousedown="return AdsClick(20382099)"  href='http://bbac.51job.com/' title='���������������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2015/bj/benz0813a_8748wh.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60'  align='left' ><a adid="20406909" onmousedown="return AdsClick(20406909)"  href='http://campus.51job.com/cisco' title='˼��ϵͳ���й�����Ϣ�����������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/sh/sike0405_7429wh.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+
+</table>
+<table border='0' width='762' align='center' cellspacing='0' cellpadding='3'><tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20141253" onmousedown="return AdsClick(20141253)"  href='http://companyadc.51job.com/companyads/2016/gz/yijia0303e_7416wh/index.htm' title='�����ڼҾ��Ӵ�ý���޹�˾���ݷֹ�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/gz/yijia0302_7416wh.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20525516" onmousedown="return AdsClick(20525516)"  href='http://www.hotjob.cn/wt/simcere/web/index?brandCode=1' title='��������ҩҵ���޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/nj/xiansheng0422_7336wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20544527" onmousedown="return AdsClick(20544527)"  href='http://companyadc.51job.com/companyads/2016vip/cq/ford0422_7433wh/index.htm' title='���������������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2015/cq/ford1215_7172wh.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20535228" onmousedown="return AdsClick(20535228)"  href='http://companyadc.51job.com/companyads/2016/cq/weichai0422_7434wh/index.htm' title='Ϋ��(����)�������޹�˾' border='0' target='_blank'><img    original='http://img02.51jobcdn.com/im/images/2016/cq/weicai0422a_7434wh.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+<tr>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20579024" onmousedown="return AdsClick(20579024)"  href='http://campus.51job.com/CHD' title='����������Դ���޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/xa/huadian0427a_7230.gif' border='0' height='60' width='317' /></a></td>
+<td colspan='2' width='317' height='60' class="xyad" align='left'><a adid="20460863" onmousedown="return AdsClick(20460863)"  href='http://zhaopin.chinatowercom.cn/' title='�й������ɷ����޹�˾' border='0' target='_blank'><img    original='http://img03.51jobcdn.com/im/images/2016/bj/chinatieta0412_7176wh.gif' border='0' height='60' width='317' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="20391844" onmousedown="return AdsClick(20391844)"  href='http://m.51job.com/cooperate/top500/index.php' title='����500ǿ��Ƹ��' border='0' target='_blank'><img    original='http://img01.51jobcdn.com/im/images/2016/careerpost/banner/500zhaopin/155_60.gif' border='0' height='60' width='155' /></a></td>
+<td width='155' height='60' class="xyad" align='left' ><a adid="19773857" onmousedown="return AdsClick(19773857)"  href='http://research.51job.com/insight.html' title='2016��ְ����н���б���' border='0' target='_blank'><img    original='http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2016_lizhitiaoxin/155_60.gif' border='0' height='60' width='155' /></a></td>
+</tr>
+
+</table>
+
+	</div>
+	<!--ad_a end-->
+	<!--ad_b start-->	
+	<div id="ad_b">
+		<div class="famous module">
+			<div class="title title2"><img src="http://img01.51jobcdn.com/im/2012/index/ad_b_title.gif" /></div>
+		</div>
+		      <div id="bannerb"><table cellpadding='0' cellspacing='7'  class="adtableb"><tr>
+<td   ><a adid="20534326" onmousedown="return AdsClick(20534326)"  href='http://campus.51job.com/Hiltoncampus' title="ϣ���پƵ��������Ϻ������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/sh/xierdun0421_7423wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20516068" onmousedown="return AdsClick(20516068)"  href='http://companyadc.51job.com/companyads/2016vip/sh/zhuyou0419_7249wh/index.htm' title="ס�ѵ繤�������Ϻ������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/sh/zhuyou0121_8781awh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20379479" onmousedown="return AdsClick(20379479)"  href='http://companyadc.51job.com/companyads/2016/sy/huachen0331_7023wh/index.htm' title="�����������ſع����޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/sy/huachen0902_7189wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20516005" onmousedown="return AdsClick(20516005)"  href='http://companyadc.51job.com/companyads/2016/hf/huaan0419_7336wh/index.htm' title="����֤ȯ�ɷ����޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/hf/huaan1228_7419wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20525071" onmousedown="return AdsClick(20525071)"  href='http://companyadc.51job.com/companyads/2016/bj/youdian0420b_7210wh/index.htm' title="�й��ʵ����ļ��Ź�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/bj/youdian0420_7210wh.gif" border='0' height='30' width='187' align='center'></a></td>
+</tr>
+<tr>
+<td  class='xyad' ><a adid="20391800" onmousedown="return AdsClick(20391800)"  href='http://companyadc.51job.com/companyads/2016/zz/fushikang0414a_7249wh/index.htm' title="�踻�����ܵ��ӣ�֣�ݣ����޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/zz/fushika0408a_7336wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20392044" onmousedown="return AdsClick(20392044)"  href='http://companyadc.51job.com/companyads/2016/sh/donglai0401_7410wh/index.htm' title="����Ϳ�ϼ������Ϻ������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/sh/donglai0405a_7148wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20504593" onmousedown="return AdsClick(20504593)"  href='http://companyadc.51job.com/companyads/2016vip/wh/taobao0418f_7162wh/index.htm#ccc' title="�����Ͱͼ���" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/hz/paidang0418_7162wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20545583" onmousedown="return AdsClick(20545583)"  href='http://companyadc.51job.com/companyads/2016/dl/luerdao0422_7317wh/index.htm' title="ͨ���пƶ������Ž�·¹��������" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/dl/luerdao0422_7317wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20337165" onmousedown="return AdsClick(20337165)"  href='http://magna.51job.com' title="�����������������Ϻ������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/cd/maigela1224_7330wh.gif" border='0' height='30' width='187' align='center'></a></td>
+</tr>
+
+</table>
+<table cellpadding='0' cellspacing='7'  class="adtableb"><tr>
+<td  class='xyad' ><a adid="20580217" onmousedown="return AdsClick(20580217)"  href='http://companyadc.51job.com/companyads/2016/hf/ruifu0427_7340wh/index.htm' title="�𸣵������������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/hf/ruifu0427_7340wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20568935" onmousedown="return AdsClick(20568935)"  href='http://companyadc.51job.com/companyads/2016vip/bj/tongfang0426_7421wh/index.htm' title="ͬ���ɷ����޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/bj/qinghua0426_7421wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20493830" onmousedown="return AdsClick(20493830)"  href='http://companyadc.51job.com/companyads/2016/sh/dongfeng0415_7414wh/index.htm' title="�����ղ������������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/sh/dongfeng0420_8708wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20482635" onmousedown="return AdsClick(20482635)"  href='http://about.gac-toyota.com.cn/recruit/index.html' title="���������������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2016/gz/fengtian0414_7407wh.gif" border='0'  height='30' width='187' align='center'></a></td>
+<td  class='xyad' ><a adid="20536750" onmousedown="return AdsClick(20536750)"  href='http://companyads.51job.com/companyads/2016/sh/boweifeng0321b_7146wh/index.htm' title="�Ϻ���Ϊ�������������޹�˾" border='0' target='_blank' onfocus='blur()'><img original="http://img02.51jobcdn.com/im/images/2015/sh/bowei0820_8915wh.gif" border='0' height='30' width='187' align='center'></a></td>
+</tr>
+
+</table>
+</div>
+    
+	</div>
+	<!--ad_b end-->
+	<!--ad_c start-->
+  
+		 		<div id="ad_c">
+    <div class="hot module">
+	    <div class="title title3"><img src="http://img01.51jobcdn.com/im/2012/index/ad_c_title.gif?20130218" width="80" height="31" /></div>
+	<table  cellspacing="5" cellpadding="0" border="0" align="center"><tbody><tr><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20390826" onmousedown="return AdsClick(20390826)" title="�й�������Ϣ��ҵ�ɷ����޹�˾" href="http://companyadc.51job.com/companyads/2016/bj/putiana0401_7155wh/index.htm" target="_blank" onfocus='blur()'><img original="http://img04.51jobcdn.com/im/images/2016/bj/putian0401_7155wh.gif"  width="104" alt="�й�������Ϣ��ҵ�ɷ����޹�˾" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20390826" onmousedown="return AdsClick(20390826)" href="http://companyadc.51job.com/companyads/2016/bj/putiana0401_7155wh/index.htm" title="�й�������Ϣ��ҵ�ɷ����޹�˾" target="_blank"  onfocus='blur()'>��ƸӢ��</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20526333" onmousedown="return AdsClick(20526333)" title="�Ϻ���Ϊ�������������޹�˾" href="http://companyadc.51job.com/companyads/2016/sh/boweifeng0420_7417wh/index.htm" target="_blank" onfocus='blur()'><img original="http://img04.51jobcdn.com/im/images/2015/sh/boweia0820_8915wh.gif"  width="104" alt="�Ϻ���Ϊ�������������޹�˾" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20526333" onmousedown="return AdsClick(20526333)" href="http://companyadc.51job.com/companyads/2016/sh/boweifeng0420_7417wh/index.htm" title="�Ϻ���Ϊ�������������޹�˾" target="_blank"  onfocus='blur()'>51testing</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20438447" onmousedown="return AdsClick(20438447)" title="�����׿Ƽ����޹�˾Agilent Technologies" href="http://companyadc.51job.com/companyads/2016vip/bj/ajl0408_7223wh/index.htm" target="_blank" onfocus='blur()'><img original="http://img04.51jobcdn.com/im/images/2013/bj/anjie0926_8797wh.gif"  width="104" alt="�����׿Ƽ����޹�˾Agilent Technologies" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20438447" onmousedown="return AdsClick(20438447)" href="http://companyadc.51job.com/companyads/2016vip/bj/ajl0408_7223wh/index.htm" title="�����׿Ƽ����޹�˾Agilent Technologies" target="_blank"  onfocus='blur()'>�����׿Ƽ����й���</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20544850" onmousedown="return AdsClick(20544850)" title="��֥��Ϣ���������ݣ����޹�˾" href="http://companyadc.51job.com/companyads/2016/hz/dongzhi0422_7223wh/index.htm" target="_blank" onfocus='blur()'><img original="http://img04.51jobcdn.com/im/images/2016/hz/dongzhi0422_7223wh.gif"  width="104" alt="��֥��Ϣ���������ݣ����޹�˾" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20544850" onmousedown="return AdsClick(20544850)" href="http://companyadc.51job.com/companyads/2016/hz/dongzhi0422_7223wh/index.htm" title="��֥��Ϣ���������ݣ����޹�˾" target="_blank"  onfocus='blur()'>��ƸӢ��</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20493037" onmousedown="return AdsClick(20493037)" title="�㶫������Ϣ�Ƽ����޹�˾" href="http://companyadc.51job.com/companyads/2016/gz/guangua0415_7428wh/index.htm" target="_blank" onfocus='blur()'><img original="http://img04.51jobcdn.com/im/images/2016/gz/gwang0219_7102wh.gif"  width="104" alt="�㶫������Ϣ�Ƽ����޹�˾" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20493037" onmousedown="return AdsClick(20493037)" href="http://search.51job.com/list/co,c,2639807,000000,10,1.html" title="�㶫������Ϣ�Ƽ����޹�˾" target="_blank"  onfocus='blur()'>��ƸӢ��</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20391858" onmousedown="return AdsClick(20391858)" title="����500ǿ��Ƹ��" href="http://m.51job.com/cooperate/top500/index.php" target="_blank" onfocus='blur()'><img original="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/500zhaopin/104_34.gif"  width="104" alt="����500ǿ��Ƹ��" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20391858" onmousedown="return AdsClick(20391858)" href="http://m.51job.com/cooperate/top500/index.php" title="����500ǿ��Ƹ��" target="_blank"  onfocus='blur()'>����500ǿ��Ƹ��</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="19774008" onmousedown="return AdsClick(19774008)" title="2016��ְ����н���б���" href="http://research.51job.com/insight.html" target="_blank" onfocus='blur()'><img original="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2016_lizhitiaoxin/104_34.gif"  width="104" alt="2016��ְ����н���б���" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="19774008" onmousedown="return AdsClick(19774008)" href="http://research.51job.com/insight.html" title="2016��ְ����н���б���" target="_blank"  onfocus='blur()'>2016��ְ����н����</a></div></td><td width="114" class="xyad" valign="bottom" height="60" bgcolor="#dddddd" ><div style="text-align:center;"><a adid="20052735" onmousedown="return AdsClick(20052735)" title="���ֺ�ְλ" href="http://www.51job.com/pm/app/iphone.php" target="_blank" onfocus='blur()'><img original="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/sjkhd/20160222/104_34.gif"  width="104" alt="���ֺ�ְλ" height="34" border="0"/></a></div><div style="text-align:center;"><a adid="20052735" onmousedown="return AdsClick(20052735)" href="http://www.51job.com/pm/app/iphone.php" title="���ֺ�ְλ" target="_blank"  onfocus='blur()'>���ֺ�ְλ</a></div></td></tbody></table>	</div>
+	</div>
+	<!--ad_c end-->
+		<div id="ad_d">
+			<table cellspacing='7' align="center" cellpadding=0 ><tr><td class="xyad"><a adid="20418899" onmousedown="return AdsClick(20418899)" href="http://companyadc.51job.com/companyads/2016/sh/mogen0302a_7424wh/index.htm" title="Ħ����ͨ���У��й������޹�˾" target="_blank" onfocus="blur()"><img original="http://img02.51jobcdn.com/im/images/2015/sh/modeng0714_8802wh.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a adid="20381364" onmousedown="return AdsClick(20381364)" href="http://companyadc.51job.com/companyads/2016/bj/xincheng0331_7421wh/index.htm" title="�ų����ٱ������޹�˾" target="_blank" onfocus="blur()"><img original="http://img02.51jobcdn.com/im/images/2015/bj/xincheng0618_8845wh.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a adid="20052757" onmousedown="return AdsClick(20052757)" href="http://www.51job.com/pm/app/iphone.php" title="���ֺ�ְλ" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/sjkhd/20160222/90_30.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a adid="20334910" onmousedown="return AdsClick(20334910)" href="http://tr.51job.com/train/51px2009/overseas.php" title="ATD֤���γ�" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/51job_atd_lesson/90_30.jpg" border="0" width=90 height=30/></a></td><td class="xyad"><a href="http://shixi.51job.com/" title="����ʵϰƵ��" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2015bwgg/b/90_30.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a href="http://www.51job.com/pm/app/3g.php" title="�ֻ��ҹ���������m.51job.com" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2015/careerpost/banner/2015bwgg/90_30.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a href="http://my.51job.com/payservice/my_service.php" title="������ֵ����" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/pm/ad/zzfw_90x30_1.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a href="http://www.51job.com/careerpost/jianlishuoming/" title="����ģ��" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2016/careerpost/banner/jianli/jlmb_90x30.gif" border="0" width=90 height=30/></a></td><td class="xyad"><a href="http://my.51job.com/my/Salary_report.php" title="н����ѯ" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/pm/ad/xinchou90x30.gif" border="0" width=90 height=30/></a></td><td class="xyad" style="padding-right:7px;"><a href="http://www.51job.com/pm/app/android.php" title="�������룬��������" target="_blank" onfocus="blur()"><img original="http://img01.51jobcdn.com/im/images/2014/careerpost/banner/2014_yuyinjianli/90x30.gif" border="0" width=90 height=30/></a></td></tr></table></div>
+			
+	<!--famous start-->
+		<div id="famous" class="module">
+		<div class="title">֪����ҵ</div>
+		
+<ul class="list_left">
+	<li>��<a adid="20536832" onmousedown="return AdsClick(20536832)" href='http://companyadc.51job.com/companyads/2016/nj/yaoshi0421_7366wh/index.htm' class='font_show' target='_blank'>�Ͼ�ҩʯ�Ƽ��ɷ����޹�˾</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20380898" onmousedown="return AdsClick(20380898)" href='http://companyadc.51job.com/companyads/2016/sh/yamaha0331_7218wh/index.htm' class='font_show' target='_blank'>�������������죨�й���Ͷ�����޹�˾</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20579893" onmousedown="return AdsClick(20579893)" href='http://companyadc.51job.com/companyads/2016/wh/qiao0427_7169wh/index.htm' class='font_show' target='_blank'>��ɽ���¿Ƽ��ɷ����޹�˾</a>&nbsp;<a adid="20579893" onmousedown="return AdsClick(20579893)" href='http://search.51job.com/job/73537437,c.html' class='position' target='_blank'>delphi</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20569298" onmousedown="return AdsClick(20569298)" href='http://companyadc.51job.com/companyads/2016/zz/bairui0426_7155wh/index.htm' class='font_show' target='_blank'>���������������ι�˾</a>&nbsp;<a adid="20569298" onmousedown="return AdsClick(20569298)" href='http://search.51job.com/job/77191497,c.html' class='position' target='_blank'>����ҵ���ܲ�������ѵ��</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20560075" onmousedown="return AdsClick(20560075)" href='http://companyadc.51job.com/companyads/2016/gz/nairuier0425_7367wh/index.htm' class='font_show' target='_blank'>�������������չɷ����޹�˾</a>&nbsp;<a adid="20560075" onmousedown="return AdsClick(20560075)" href='http://search.51job.com/job/73750725,c.html' class='position' target='_blank'>����ʦ</a>&nbsp;<a adid="20560075" onmousedown="return AdsClick(20560075)" href='http://search.51job.com/job/76668499,c.html' class='position' target='_blank'>��������ʦ</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20546762" onmousedown="return AdsClick(20546762)" href='http://companyadc.51job.com/companyads/2016/wh/changqian0422_7410wh/index.htm' class='font_show' target='_blank'>���ճ�ǣ�Ӱ͵�ǣ��ϵͳ���޹�˾</a>&nbsp;<a adid="20546762" onmousedown="return AdsClick(20546762)" href='http://search.51job.com/job/77023547,c.html' class='position' target='_blank'>�ֳ����Լ���Ա</a></li>
+	<li>��<a adid="20460364" onmousedown="return AdsClick(20460364)" href='http://companyadc.51job.com/companyads/2016/km/yaoxin0412_7419wh/index.htm' class='font_show' target='_blank'>ҫ�˷��ز�������Ӫ�����ţ����޹�˾</a>&nbsp;<a adid="20460364" onmousedown="return AdsClick(20460364)" href='http://search.51job.com/job/76714518,c.html' class='position' target='_blank'>����רԱ</a></li>
+	<li>��<a adid="20438901" onmousedown="return AdsClick(20438901)" href='http://companyads.51job.com/companyads/2016/sh/bowei0408_7146wh/index.htm' class='font_show' target='_blank'>51Testing Ӧ������ҵ��</a></li>
+	<li>��<a adid="20544092" onmousedown="return AdsClick(20544092)" href='http://companyadc.51job.com/companyads/2016/hz/chaowei0422_7434wh02/index.htm' class='font_show' target='_blank'>������Դ���޹�˾</a></li>
+</ul>
+<ul class="list_center">
+	<li>��<a adid="20524528" onmousedown="return AdsClick(20524528)" href='http://companyadc.51job.com/companyads/2016/hrb/jiuzhou0420b_7376wh/index.htm' class='font_show' target='_blank'>���������޵����ɷ����޹�˾</a>&nbsp;<a adid="20524528" onmousedown="return AdsClick(20524528)" href='http://search.51job.com/job/71895366,c.html' class='position' target='_blank'>��ҵ������</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20481537" onmousedown="return AdsClick(20481537)" href='http://companyadc.51job.com/companyads/2016/cd/haiguang0414_7210wh/index.htm' class='font_show' target='_blank'>�����˵�</a>&nbsp;<a adid="20481537" onmousedown="return AdsClick(20481537)" href='http://search.51job.com/job/69525916,c.html' class='position' target='_blank'>�ǿع���ʦ/��������ʦ</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20428337" onmousedown="return AdsClick(20428337)" href='http://companyadc.51job.com/companyads/2016/hz/dy0408_7416wh/index.htm' class='font_show' target='_blank'>���ݵ����������޹�˾</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20515770" onmousedown="return AdsClick(20515770)" href='http://companyadc.51job.com/companyads/2016/gz/chunqian0419_7433wh/index.htm' class='font_show' target='_blank'>��������</a>&nbsp;<a adid="20515770" onmousedown="return AdsClick(20515770)" href='http://search.51job.com/job/69622452,c.html' class='position' target='_blank'>PHP��������ʦ</a>&nbsp;<a adid="20515770" onmousedown="return AdsClick(20515770)" href='http://search.51job.com/job/76735052,c.html' class='position' target='_blank'>���۴���</a>&nbsp;<a adid="20515770" onmousedown="return AdsClick(20515770)" href='http://search.51job.com/job/76011541,c.html' class='position' target='_blank'>����רԱ</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20536391" onmousedown="return AdsClick(20536391)" href='http://companyadc.51job.com/companyads/2016/sh/huagai0421_7212wh/index.htm' class='font_show' target='_blank'>�Ϻ����ǿƼ���˾</a>&nbsp;<a adid="20536391" onmousedown="return AdsClick(20536391)" href='http://search.51job.com/job/72189298,c.html' class='position' target='_blank'>��Ŀ����</a>&nbsp;<a adid="20536391" onmousedown="return AdsClick(20536391)" href='http://search.51job.com/job/77078625,c.html' class='position' target='_blank'>���۾���</a>&nbsp;<a adid="20536391" onmousedown="return AdsClick(20536391)" href='http://search.51job.com/job/66454812,c.html' class='position' target='_blank'>��ǰ֧��</a></li>
+	<li>��<a adid="20544168" onmousedown="return AdsClick(20544168)" href='http://companyadc.51job.com/companyads/2016/sh/alad0422_7336wh/index.htm' class='font_show' target='_blank'>�������Լ�</a>&nbsp;<a adid="20544168" onmousedown="return AdsClick(20544168)" href='http://search.51job.com/job/76312505,c.html' class='position' target='_blank'>����ѧ��ʿ</a>&nbsp;<a adid="20544168" onmousedown="return AdsClick(20544168)" href='http://search.51job.com/job/77069443,c.html' class='position' target='_blank'>�������ͻ�רԱ</a></li>
+	<li>��<a adid="20537290" onmousedown="return AdsClick(20537290)" href='http://companyadc.51job.com/companyads/2016/km/gezhou0421_7183wh/index.htm' class='font_show' target='_blank'>�й����ްӼ��ŵ����������޹�˾</a>&nbsp;<a adid="20537290" onmousedown="return AdsClick(20537290)" href='http://search.51job.com/job/75428659,c.html' class='position' target='_blank'>���̹���</a></li>
+	<li>��<a adid="20536446" onmousedown="return AdsClick(20536446)" href='http://companyadc.51job.com/companyads/2016/km/jida0421_7422wh/index.htm' class='font_show' target='_blank'>����������ҩ�ɷ����޹�˾������ҩ�з���Ա��ļ��</a></li>
+	<li>��<a adid="20517426" onmousedown="return AdsClick(20517426)" href='http://companyadc.51job.com/companyads/2016/sh/diya0420b_7342wh/index.htm' class='font_show' target='_blank'>���Ǽ�ŷ����ó�ף��Ϻ������޹�˾</a></li>
+</ul>
+<ul class="list_right">
+	<li>��<a adid="20535550" onmousedown="return AdsClick(20535550)" href='http://companyadc.51job.com/companyads/2016/wh/zhuoer0421_7422wh/index.htm' class='font_show' target='_blank'>׿���ع����޹�˾</a>&nbsp;<a adid="20535550" onmousedown="return AdsClick(20535550)" href='http://search.51job.com/job/69234100,c.html' class='position' target='_blank'>���ƾ���</a>&nbsp;<a adid="20535550" onmousedown="return AdsClick(20535550)" href='http://search.51job.com/job/68590924,c.html' class='position' target='_blank'>��������</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20473788" onmousedown="return AdsClick(20473788)" href='http://companyadc.51job.com/companyads/2016/hz/aixi0413_7169wh/index.htm' class='font_show' target='_blank'>���ݰ�ϣ�Ƽ�</a>&nbsp;<a adid="20473788" onmousedown="return AdsClick(20473788)" href='http://search.51job.com/job/69918616,c.html' class='position' target='_blank'>ASP.NET</a>&nbsp;<a adid="20473788" onmousedown="return AdsClick(20473788)" href='http://search.51job.com/job/69918484,c.html' class='position' target='_blank'>������������ʦ(C#)</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20569838" onmousedown="return AdsClick(20569838)" href='http://companyadc.51job.com/companyads/2016/nb/nuodinghan0426_7317wh/index.htm' class='font_show' target='_blank'>����ŵ������ѧ</a>&nbsp;<a adid="20569838" onmousedown="return AdsClick(20569838)" href='http://search.51job.com/job/77072004,c.html' class='position' target='_blank'>ԺУ����������Ա/����</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20568938" onmousedown="return AdsClick(20568938)" href='http://companyadc.51job.com/companyads/2016/cs/hn0426_7422wh/index.htm' class='font_show' target='_blank'>���ϻ�ŵ�Ƽ����޹�˾</a><img src='http://img01.51jobcdn.com//im/2012/index/info_new.gif?20130218'></li>
+	<li>��<a adid="20544407" onmousedown="return AdsClick(20544407)" href='http://companyadc.51job.com/companyads/2016/hz/oukang0422_7204wh/index.htm' class='font_show' target='_blank'>�¿����ʵ����������޹�˾</a>&nbsp;<a adid="20544407" onmousedown="return AdsClick(20544407)" href='http://search.51job.com/job/76650509,c.html' class='position' target='_blank'>ƽ������</a>&nbsp;<a adid="20544407" onmousedown="return AdsClick(20544407)" href='http://search.51job.com/job/76484363,c.html' class='position' target='_blank'>ƽ������</a></li>
+	<li>��<a adid="20545005" onmousedown="return AdsClick(20545005)" href='http://companyadc.51job.com/companyads/2016/hz/guahao0422_7373wh/index.htm' class='font_show' target='_blank'>΢ҽ����</a></li>
+	<li>��<a adid="20544562" onmousedown="return AdsClick(20544562)" href='http://companyadc.51job.com/companyads/2016/cd/huaxi0422_7423wh/index.htm' class='font_show' target='_blank'>����֤ȯ�ɷ����޹�˾</a></li>
+	<li>��<a adid="20537091" onmousedown="return AdsClick(20537091)" href='http://companyadc.51job.com/companyads/2016/sh/kainan0421_7204wh/index.htm' class='font_show' target='_blank'>�Ϻ�����Ͷ�ʿعɼ������޹�˾</a></li>
+	<li>��<a adid="20471632" onmousedown="return AdsClick(20471632)" href='http://companyadc.51job.com/companyads/2016/wh/darf0414_7120wh/index.htm' class='font_show' target='_blank'>�人������</a>&nbsp;<a adid="20471632" onmousedown="return AdsClick(20471632)" href='http://search.51job.com/job/73861302,c.html' class='position' target='_blank'>���̾���</a>&nbsp;<a adid="20471632" onmousedown="return AdsClick(20471632)" href='http://search.51job.com/job/63929874,c.html' class='position' target='_blank'>�����ɲ�</a></li>
+</ul>		<div style="clear:both;"></div>
+	</div>
+	
+		<!--famous end-->
+	<!--info start-->
+	<div class="lastscreen">
+		<div id="info" class="module">
+			<div class="title">ְ����Ѷ</div>
+			<div class="head"><img src="http://img01.51jobcdn.com/im/2012/index/cuad.gif" /></div>
+		  	<div class="content">
+		  	 <a target="_blank" href="http://arts.51job.com/arts/05/414769.html" title="�����Ҵ����������α�����Щ��˾����ȥ"><strong>�����Ҵ����������α�����Щ��˾����ȥ</strong></a> <span class="font" style="display:block;font-family:����;line-height:18px;margin-top:8px;text-indent: 24px;width:360px;">����˵���յ�����֪ͨ�ʹ���������ϣ���ˣ��Ͼ��ȼ���Ͷ��ȥû�����ö��ˡ�����Щ���ԣ��º�ֻ�����ڵ�...<a target="_blank" href="http://arts.51job.com/arts/05/414769.html"><span style="color:#FF7300;">�Ķ�ȫ��>></span></a></span>		  	</div>
+			<div style="clear:both;"></div>
+			<ul>
+			 <li><a target="_blank" href="http://arts.51job.com/arts/05/414780.html" title="[����]���Ը������⣬���̻��ǹ���">��[����]���Ը������⣬����...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li><li><a target="_blank" href="http://arts.51job.com/arts/05/414779.html" title="[����] ����Ͷ��ûɶ��Ͷ��������Ҳ����û˭�ˣ�">��[����] ����Ͷ��ûɶ��Ͷ��...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li><li><a target="_blank" href="http://arts.51job.com/arts/05/414777.html" title="ɹнˮ�����ظ��и�ҵ�Ĺ����ж��٣�">��ɹнˮ�����ظ��и�ҵ�Ĺ�...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li><li><a target="_blank" href="http://arts.51job.com/arts/05/414773.html" title="[����]һ����3�βۣ�ƾʲô��HR���㣿��">��[����]һ����3�βۣ�ƾʲô...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li><li><a target="_blank" href="http://arts.51job.com/arts/05/414772.html" title="�ѻ�δ���Ǵ��ɣ��������ǻ��ã�">���ѻ�δ���Ǵ��ɣ���������...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li><li><a target="_blank" href="http://arts.51job.com/arts/05/414763.html" title="[�˼�]�����ѻ�Ů������û����ȫ�������쵼�Ĵ���">��[�˼�]�����ѻ�Ů������û...</a><img src="http://images.51job.com/im/2012/index/info_new.gif?20130218" /></li>			</ul>
+		</div>
+		
+		<div id="other" class="module">
+			<div class="ad"><span class="flashid">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="400" height="72">
+      <param name="movie" value="http://img01.51jobcdn.com/im/images/2013/careerpost/banner/2013_51club/400_72.swf">
+      <param name="quality" value="high">
+      <embed src="http://img01.51jobcdn.com/im/images/2013/careerpost/banner/2013_51club/400_72.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="400" height="72"></embed>
+    </object>
+</span>
+
+<div class="pot"></div>
+<ul>
+<li><a href="http://www.51job.com/pm/app/3g.php" target="_blank">���ֻ��ҹ����������� m.51job.com</a></li>
+<li><a href="http://www.51job.com/careerpost/jianlishuoming/" target="_blank">������ģ��,���˼���ģ������</a></li>
+<li><a href="http://app.51job.com/" target="_blank">���ֻ���ְ���ر����������Ѱ�װ-></a></li>
+<li><h1 style="font-size:12px;font-weight:normal"><a href="http://www.51job.com/sitemap/hotjob,all.html " target="_blank">��ȫ���˲���Ƹ����ְλ</a></h1></li>
+</ul>
+<div style="float:left; margin-left:20px;margin-top:5px;width:420px;">
+<div style="float:left; font-size:12px;">&nbsp;�������飺</div>
+<div id="link_f">
+	<div id="inlink_f">
+		<div id="link_f1">		    
+			<a href="http://www.lumi258.com"  class="font_show" target="_blank">Lumi��ԭ����</a>
+			<a href="http://www.hudong.com"  class="font_show" target="_blank">�����ٿ�</a>
+			<a href="http://jianli.51job.com/fengmian/"  class="font_show" target="_blank">������������</a>
+			<a href="http://www.51job.com/shijiazhuang" target="_blank" class="font_show">ʯ��ׯ��Ƹ</a>
+			<a href="http://jianli.51job.com/biaoge/"  class="font_show" target="_blank">������������</a>
+			<a href="http://jianli.51job.com/jianlifanwen/"  class="font_show" target="_blank">��������</a>
+			<a href="http://www.51job.com/shanghai" target="_blank" class="font_show">�Ϻ��˲���</a>
+			<a href="http://www.51job.com/changchun" target="_blank" class="font_show">������Ƹ</a>
+			<a href="http://jianli.51job.com/" class="font_show" target="_blank">���˼���ģ��</a>
+			<a href="http://www.51job.com/jinan" target="_blank" class="font_show">������Ƹ</a>
+            <a href="http://jianli.51job.com/jianliyangben/"  class="font_show" target="_blank">��������</a>
+			<a href="http://www.51job.com/qingdao" target="_blank" class="font_show">�ൺ��Ƹ</a>
+			<a href="http://www.51job.com/careerpost/tiaocao/mianshi.php" class="font_show" target="_blank">���Լ���</a>
+			<a href="http://www.51job.com/xiamen" target="_blank" class="font_show">�����˲���</a>
+			<a href="http://jianli.51job.com" class="font_show" target="_blank">��ְ��</a>
+			<a href="http://www.51job.com/wuxi" target="_blank" class="font_show">������Ƹ</a>&nbsp;
+</div>
+		<div id="link_f2"></div>
+	</div>
+</div>
+</div>
+<script>
+<!--
+var speed=30; //����Խ���ٶ�Խ��
+var tab=document.getElementById("link_f");
+var tab1=document.getElementById("link_f1");
+var tab2=document.getElementById("link_f2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+</script></div>
+			</div>
+		<div style="clear:both;"></div>
+	</div>
+	<!--info end-->
+</div>
+<!--content end-->
+</div>
+<div style="width:1002px; margin:0 auto;">
+<!-- bottom start -->
+<!--bottom start-->
+<div id="bottom">
+		<div id="bott">
+		<ul class="btext">
+			<li><a href="http://www.51job.com/bo/sitemap.php" target="_blank" onfocus="blur()">��վ����</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/bo/service.php" target="_blank" onfocus="blur()">��������</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/bo/contact.php" target="_blank" onfocus="blur()">��������</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/bo/AboutUs.php" target="_blank" onfocus="blur()">��������</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/bo/media/media.php" target="_blank" onfocus="blur()">ý�屨��</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/vip/index.php" target="_blank" onfocus="blur()">��������</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/hl/grjl.php" target="_blank" onfocus="blur()">����</a></li>
+			<li>|</li>
+			<li><a href="http://ir.51job.com/ir/IRMain.php" target="_blank" onfocus="blur()">Investor Relations</a></li>
+			<li>|</li>
+			<li><a href="http://www.51job.com/link.php" target="_blank" onfocus="blur()">��������</a></li>
+		</ul>
+	</div>
+	<div id="copyright">
+		<p class="fontright">�ͻ��������ߣ�400-820-5100��800-820-5100&nbsp;&nbsp;&nbsp;&nbsp;�������ߣ�400-886-0051&nbsp;&nbsp;&nbsp;&nbsp;Email��<a href="mailto:club@51job.com" onfocus="blur()">club@51job.com</a>(����)��<a href="mailto:hr@51job.com" onfocus="blur()">hr@51job.com</a>(��ҵ)</p>
+		<p class="fontright">δ��51job.com ͬ�⣬����ת�ر���վ֮������Ƹ��Ϣ����Ʒ</p>
+		<p class="fontright">���ǹ�������Ȩ����&copy;1999-2016</p>
+	</div>
+  </div>
+<!-- bottom end --><!-- bottom end-->
+<!-- cert start -->
+<div id="cert">
+  <table width="520" border="0" align="center" cellpadding="2" cellspacing="5">
+  <tr>
+    <td rowspan="2" align="center" valign="middle">
+<SCRIPT LANGUAGE="JavaScript" >
+document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20111110135406666' target='_blank'><img src='http://img01.51jobcdn.com/im/2009/license/20111231gongshang.gif' border=0></a>")</SCRIPT>
+</td>
+    <td align="center" valign="top"><a href="http://www.miibeian.gov.cn/"  target="_blank"><img src="http://img01.51jobcdn.com/im/2009/license/shca_cc.gif" border="0"/></a></td>
+    <td rowspan="2" align="center" valign="middle"><a href="http://www.pdxa.cn/Welcome.Asp?Id=3101150532" target="_blank"><img src="http://img01.51jobcdn.com/im/2009/license/GA_Logo2.gif" border="0" /></a></td>
+    <td rowspan="2" align="center" valign="middle"><a href="http://sh.cyberpolice.cn" target="_blank"><img src="http://img01.51jobcdn.com/im/2009/license/shwjwl110.gif" border="0" /></a></td>
+    <td rowspan="2" align="center" valign="middle"><a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20120110001801001838' target='_blank'><img src='http://img01.51jobcdn.com/im/2009/license/certcx.gif'></a>
+<script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script></td>
+    <td rowspan="2" align="center" valign="middle"><a href="http://www.shjbzx.cn/" target="_blank"><img src="http://img01.51jobcdn.com/im/2009/license/shjubao.gif" border="0" /></a></td>
+    </tr>
+  <tr>
+    <td align="center" valign="middle"><span style="font-size: 9px;color: #000000;">��ICP��12015550��</span></td>
+  </tr>
+  </table>
+</div>
+<!-- cert end-->
+</div>
+<div id="zoomer" class="" style="display:none;"></div>
+<!--  ΢��̸ҳ�濪ʼ-->
+<div></div><!--  ΢��̸ҳ������-->
+<!--  �����ֶ����� start-->
+<style type="text/css">
+.ad_double{width:100%;position:fixed;_position:absolute;top:67px;left:0;_top:expression(eval(document.documentElement.scrollTop+70));}
+.bannerWrap_xz{width:100px;height:0;position:absolute;top:0;left:50%;margin-left:-496px;}
+.ad_xz_left{width:121px;height:1000px;position:relative;}
+.ad_xz_left{float:left;left:-128px;}
+</style>
+
+<div class="ad_double">
+<div class="bannerWrap_xz">	
+<div class="ad_xz_left">
+	<p style="padding-top: 5px; padding-bottom: 5px;"><a href="http://jc.51job.com"  target="_blank"><img src="http://img01.51jobcdn.com/im/pm/ad/jiceng/2016/120x250.gif"></a></p>	
+	<p style="padding-top: 5px; padding-bottom: 5px;"><a href="http://ac.51job.com/phpAD/adtrace.php?ID=15004999"  target="_blank"><img src="http://img01.51jobcdn.com/im/2012/index/120-250.gif"></a></p>
+	<div style="margin-top:20px;">
+<img id="xz_img"  src="http://img01.51jobcdn.com/im/2012/index/filter-school.png" border="0" usemap="#Map2" style="display:none;vertical-align:middle;"/>
+<img id="all_img"  src="http://img01.51jobcdn.com/im/2012/index/filter-all.png" border="0" usemap="#Map2" style="display:block;display:inline-block; vertical-align:middle;"/>
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="3,28,120,60" href="javascript:void(0);" onclick="movemask('xyad');"/>
+  <area shape="rect" coords="4,60,120,85" href="javascript:void(0);" onclick="addmask('xyad',this);"  />
+</map>
+</div>
+<script type="text/javascript">
+(function(){
+$.extend($.fn,{
+		mask: function(msg,maskDivClass){
+		this.unmask();
+		var op = {
+		opacity: 0.6,
+		z: 8,
+		bgcolor: '#000'
+		};
+		var original=$(document.body);
+		var position={top:0,left:0};
+		if(this[0] && this[0] !==window.document){
+			original=this;
+		}
+		var maskDiv=$('<span class="maskdivgen"></span>');
+		maskDiv.prependTo(original);
+		maskWidth=original.find("img").attr("width");
+		maskHeight=original.find("img").attr("height");
+		if(maskWidth == 104){
+			maskWidth = 113;
+			maskHeight = 59;
+			maskDiv.css({
+				position: 'absolute',
+				'margin-left':'0px',
+				'margin-top':'-3px',
+				'z-index': op.z,
+				width: maskWidth,
+				height:maskHeight,
+				'background-color': op.bgcolor,
+				zoom:1,
+				opacity: 0
+				});
+		}else{
+			maskDiv.css({
+			position: 'absolute',
+			'margin-left':'0px',
+			'margin-top':'0px',
+			'z-index': op.z,
+			width: maskWidth,
+			height:maskHeight,
+			'background-color': op.bgcolor,
+			zoom:1,
+			opacity: 0
+			});
+		}
+	if(maskDivClass){
+		maskDiv.addClass(maskDivClass);
+	}
+
+	maskDiv.fadeIn('fast', function(){
+		$(this).fadeTo('normal', op.opacity);
+	})
+	return maskDiv;
+},
+unmask: function(){
+	var original=$(document.body);
+	if(this[0] && this[0]!==window.document){
+		original=$(this[0]);
+	}
+	original.find("> span.maskdivgen").fadeOut('fast',0,function(){
+		$(this).remove();
+	});
+}
+});
+})();
+	function  addmask(a){
+				var aes = $('.'+a+'');
+				var count_len = (aes.length)-1;
+				for(count_len;count_len>=0;count_len--){
+					aes.eq(count_len).mask();
+				}
+				$('#all_img').hide();
+				$('#xz_img').show();
+		}
+	function movemask(a){
+			var aes = $('.'+a+'');
+			var count_len = aes.length-1;
+			for(count_len;count_len>=0;count_len--){
+				aes.eq(count_len).unmask();
+			}
+			$('#xz_img').hide();
+			$('#all_img').show();
+		
+		}
+</script>
+	</div>
+</div>
+<!--  �����ֶ����� end-->
+
+
+<script language="javascript">
+$(document).ready(function(){
+	setTimeout(function(){
+	 $(".index_ad_popup").each(function(){
+			var width = $(this).find("img").attr("width");
+			width = parseInt(width) - 8;
+			var height =  $(this).find("img").attr("height");
+			height = parseInt(height) - 8;
+			var span = '<span class="ad_more" style="margin-top:'+ height +'px;margin-left:'+ width +'px;"> </span>';
+			$(this).prepend(span);					
+	});
+	},1);
+	 $("#zoomer").mouseleave(function(){
+			$("#zoomer").css({
+				"display":"none"
+			});
+			$("#zoomer").html('');
+		});
+});
+</script></body>
+</html>
+
+
+
+<script language="javascript">
+<!--
+  window.cfg = {
+    lang : 'c' ,
+    fullLang : 'Chinese' ,
+    langs : {
+      ts_qxjzw : '��ѡ��ְλ' ,
+      queren : 'ȷ��' ,
+      guanbi : '�ر�' ,
+      yxdd : '��ѡ�ص�' ,
+      yxzn : '��ѡְ��' ,
+      yxhy : '��ѡ��ҵ' ,
+      nzdnxj : '��������ѡ��' ,
+      xiang : '��' ,
+      xjdq : 'ѡ������' ,
+      xj_xg : 'ѡ��/�޸�' ,
+      zycs : '��Ҫ����' ,
+      sysf : '����ʡ��' ,
+	  tspd : '����Ƶ��',
+      qxjgzdd : '��ѡ�������ص�' ,
+      qxjznlb : '��ѡ��ְ������' ,
+      qxjhylb : '��ѡ����ҵ����' ,
+      gzdd : '�����ص�' ,
+      buxian : '����'
+    } ,
+    url : {
+      image : 'http://img01.51jobcdn.com/im/2009' ,
+      image_search : 'http://img01.51jobcdn.com/im/2009/search' ,
+      image_search_lang : 'http://img01.51jobcdn.com/im/2009/search/c' ,
+      image_search_c : 'http://img01.51jobcdn.com/im/2009/search/c' ,
+      image_search_e : 'http://img01.51jobcdn.com/im/2009/search/e'
+    }
+  };
+  function searchInit() {
+    if ( window.JobLayer ) {
+      clearInterval( intVal );
+
+      var param = {
+        cfg : cfg ,
+        openNodes : document.frmKeywordSearch.btnJobarea ,
+        _valueNodes : document.frmKeywordSearch.jobarea  ,
+        _textNodes : document.frmKeywordSearch.btnJobarea  ,
+        isMulty : false ,
+        isHasNolimit : true
+      };
+      var jl = new JobareaLayer( param );
+    }
+  }
+  var intVal = window.setInterval( searchInit , 50 );
+  
+	function onloadFun(){
+	  if(window.$){
+	    $(document).ready(function(){
+	      /*ȥ�����ӣ�button��image button�ĵ���ʱ���߿�*/
+	      $("a,input[type='button'],input[type='image'],input[type='submit'],area,img").bind("focus",function(){
+	        if(this.blur){
+	          this.blur();
+	        }
+	      })
+	    })
+	  } else {
+	    setTimeout("onloadFun()",1000);
+	  }
+	}
+	onloadFun();
+
+
+    function closeRightBottomLayer(sClassName) {
+        $('.weifantang-wrap').hide();
+    }
+
+-->
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+$(function() {
+	$("img").lazyload({placeholder : "http://img01.51jobcdn.com/im/2009/grey.gif",effect : "fadeIn", threshold : 200});
+});
+-->
+</script>
