@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> demo: <%= title %> </h1>
+<h2> name: <%= name %> </h2>
+
+<% var varA = A %>
+<% if (varA) { %>
+<h3>demo: <%= varA %></h3>
+<% } %>
+<% var varB = B %>
+<% if (varB) { %>
+<h3>demo: <%= varB %></h3>
+<% } %>
+<!--<h3>demo: <%= A %></h3>-->
+<!--<h4>demo: <%= B %></h4>-->
+Welcome to <%= title %>
+
+<div id="container"></div>
+
+<script type="text/javascript" src="/javascripts/react.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/react-dom.js"></script>
+<script type="text/javascript" src="/javascripts/browser.min.js"></script>
+
+<script type="text/babel" src="/react-src/HelloReact.js"></script>
+
+
+</body>
+</html>
