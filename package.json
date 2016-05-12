@@ -13,6 +13,7 @@
     "ejs": "~2.4.1",
     "express": "^4.13.4",
     "jquery": "^2.2.3",
+    "kolor": "^1.1.8",
     "morgan": "~1.6.1",
     "react-modal": "^1.2.1",
     "react-overflow-tooltip": "^2.0.0",

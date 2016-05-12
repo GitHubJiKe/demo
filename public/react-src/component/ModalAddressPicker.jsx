@@ -519,6 +519,7 @@ module.exports = React.createClass({
 		return ({
 			onAddressConfirm: onAddressConfirm,
 			placeholder: props.placeholder ? props.placeholder : '请选择省市区',
+			selectedColor: props.selectedColor ? props.selectedColor : '#FF6600',
 			modalIsOpen: false,
 			provincebtnBackgroundColor: '',
 			citybtnBackgroundColor: '',
@@ -538,19 +539,55 @@ module.exports = React.createClass({
 		this.setState({modalIsOpen: true, provincebtnBackgroundColor: 'white'});
 	},
 
+	_hexToRgba: function (hex, al) {
+		var hexColor = /^#/.test(hex) ? hex.slice(1) : hex, alp = hex === 'transparent' ? 0 : Math.ceil(al), r, g, b;
+		hexColor = /^[0-9a-f]{3}|[0-9a-f]{6}$/i.test(hexColor) ? hexColor : 'fffff';
+		if (hexColor.length === 3) {
+			hexColor = hexColor.replace(/(\w)(\w)(\w)/gi, '$1$1$2$2$3$3');
+		}
+		r = hexColor.slice(0, 2);
+		g = hexColor.slice(2, 4);
+		b = hexColor.slice(4, 6);
+		r = parseInt(r, 16);
+		g = parseInt(g, 16);
+		b = parseInt(b, 16);
+		return {
+			hex: '#' + hexColor,
+			alpha: alp,
+			rgba: 'rgb(' + r + ', ' + g + ', ' + b + ')'
+		};
+	},
 	_ChooseProvince: function () {
 		var self = this;
 		var addressStamp = self.refs.AddressInput.value;
-		var province = addressStamp.split('/')[0];
-		// console.log()
+		var provincestamp = addressStamp.split('/')[0];
 		var provinceArray = Object.keys(addressStr).map(function (province, idx) {
-			return (
+			if (provincestamp != null && provincestamp != "") {
+				if (provincestamp == province) {
+					return (<p key={idx} onClick={self._selectProvince} onMouseOver={self._handleItemMouseOver}
+										 onMouseLeave={self._handleItemMouseLeave}
+										 style={{float:'left',padding:'5px' ,margin:'0px',backgroundColor:self.state.selectedColor,color:'white'}}>
+						{province.toString()}
+					</p>);
+				} else {
+					return (
+						<p key={idx} onClick={self._selectProvince} onMouseOver={self._handleItemMouseOver}
+							 onMouseLeave={self._handleItemMouseLeave}
+							 style={{float:'left',padding:'5px' ,margin:'0px'}}>
+							{province.toString()}
+						</p>
+					);
+				}
+			} else {
+				return (
+					<p key={idx} onClick={self._selectProvince} onMouseOver={self._handleItemMouseOver}
+						 onMouseLeave={self._handleItemMouseLeave}
+						 style={{float:'left',padding:'5px' ,margin:'0px'}}>
+						{province.toString()}
+					</p>
+				);
+			}
 
-				<p key={idx} onClick={self._selectProvince} onMouseOver={self._handleItemMouseOver}
-					 onMouseLeave={self._handleItemMouseLeave} style={{float:'left',padding:'5px' ,margin:'0px'}}>
-					{province.toString()}
-				</p>
-			);
 		});
 		this.setState({
 			citybtnBackgroundColor: '',
@@ -564,28 +601,113 @@ module.exports = React.createClass({
 	},
 
 	_ChooseCity: function () {
-		this.setState({
-			citybtnBackgroundColor: 'white',
-			provincebtnBackgroundColor: "",
-			countybtnBackgroundColor: '',
-			displayProvince: 'none',
-			displayCity: 'block',
-			displayCounty: 'none',
-			cityArray: this.state.cityArray,
-			provinceArray: this.state.provinceArray
-		});
+		var self = this;
+		var addressStamp = this.refs.AddressInput.value;
+		if (addressStamp != null && addressStamp != '') {
+			var citystamp = addressStamp.split('/')[1];
+			var Citys = Object.keys(addressStr[addressStamp.split('/')[0]]);
+			var cityarray = Citys.map(function (city, idx) {
+				if (citystamp != null && citystamp != '') {
+					if (city == citystamp) {
+						return (
+							<p key={idx} onClick={self._selectCounty} onMouseOver={self._handleItemMouseOver}
+								 onMouseLeave={self._handleItemMouseLeave}
+								 style={{float: 'left', padding: '5px' ,margin:'0px',backgroundColor:self.state.selectedColor,color:'white'}}>
+								{city.toString()}
+							</p>);
+					} else {
+						return (
+							<p key={idx} onClick={self._selectCounty} onMouseOver={self._handleItemMouseOver}
+								 onMouseLeave={self._handleItemMouseLeave}
+								 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+								{city.toString()}
+							</p>);
+					}
+				} else {
+					return (
+						<p key={idx} onClick={self._selectCounty} onMouseOver={self._handleItemMouseOver}
+							 onMouseLeave={self._handleItemMouseLeave}
+							 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+							{city.toString()}
+						</p>);
+				}
+			});
+			this.setState({
+				citybtnBackgroundColor: 'white',
+				provincebtnBackgroundColor: "",
+				countybtnBackgroundColor: '',
+				displayProvince: 'none',
+				displayCity: 'block',
+				displayCounty: 'none',
+				cityArray: cityarray,
+				provinceArray: this.state.provinceArray
+			});
+		} else {
+			this.setState({
+				citybtnBackgroundColor: 'white',
+				provincebtnBackgroundColor: "",
+				countybtnBackgroundColor: '',
+				displayProvince: 'none',
+				displayCity: 'block',
+				displayCounty: 'none',
+			});
+		}
 	},
 
 	_ChooseCounty: function () {
-		this.setState({
-			citybtnBackgroundColor: '',
-			provincebtnBackgroundColor: "",
-			countybtnBackgroundColor: 'white',
-			displayCity: 'none',
-			displayProvince: 'none',
-			displayCounty: 'block',
-			countyArray: ''
-		});
+		var self = this;
+		var addressStamp = this.refs.AddressInput.value;
+		if (addressStamp != null && addressStamp != '') {
+			var citystamp = addressStamp.split('/')[1];
+			var province = addressStamp.split('/')[0];
+			var countystamp = addressStamp.split('/')[2];
+			var Province = addressStr[province];
+			if (citystamp != null && citystamp != '') {
+				var Countys = Province[citystamp];
+				var countyarray = Countys.map(function (county, idx) {
+					if (countystamp != null && countystamp != '') {
+						if (countystamp == county) {
+							return (<p key={idx} onClick={self._selectDone} onMouseOver={self._handleItemMouseOver}
+												 onMouseLeave={self._handleItemMouseLeave}
+												 style={{float: 'left', padding: '5px' ,margin:'0px',backgroundColor:self.state.selectedColor,color:'white'}}>
+								{county.toString()}
+							</p>);
+						} else {
+							return (<p key={idx} onClick={self._selectDone} onMouseOver={self._handleItemMouseOver}
+												 onMouseLeave={self._handleItemMouseLeave}
+												 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+								{county.toString()}
+							</p>);
+						}
+					} else {
+						return (<p key={idx} onClick={self._selectDone} onMouseOver={self._handleItemMouseOver}
+											 onMouseLeave={self._handleItemMouseLeave}
+											 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+							{county.toString()}
+						</p>);
+					}
+				});
+				this.setState({
+					citybtnBackgroundColor: '',
+					provincebtnBackgroundColor: "",
+					countybtnBackgroundColor: 'white',
+					displayCity: 'none',
+					displayProvince: 'none',
+					displayCounty: 'block',
+					countyArray: countyarray
+				});
+			}
+		} else {
+			this.setState({
+				citybtnBackgroundColor: '',
+				provincebtnBackgroundColor: "",
+				countybtnBackgroundColor: 'white',
+				displayCity: 'none',
+				displayProvince: 'none',
+				displayCounty: 'block',
+				countyArray: ''
+			});
+		}
 	},
 
 	_selectProvince: function (e) {
@@ -594,10 +716,10 @@ module.exports = React.createClass({
 		var cityarray = Citys.map(function (city, idx) {
 			return (
 				<p key={idx} onClick={self._selectCounty} onMouseOver={self._handleItemMouseOver}
-					 onMouseLeave={self._handleItemMouseLeave} style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+					 onMouseLeave={self._handleItemMouseLeave}
+					 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
 					{city.toString()}
-				</p>
-			);
+				</p>);
 		});
 		this.setState({
 			selectedAddress: e.target.innerHTML,
@@ -620,7 +742,8 @@ module.exports = React.createClass({
 
 		var countyarray = Countys.map(function (county, idx) {
 			return (<p key={idx} onClick={self._selectDone} onMouseOver={self._handleItemMouseOver}
-								 onMouseLeave={self._handleItemMouseLeave} style={{float: 'left', padding: '5px' ,margin:'0px'}}>
+								 onMouseLeave={self._handleItemMouseLeave}
+								 style={{float: 'left', padding: '5px' ,margin:'0px'}}>
 				{county.toString()}
 			</p>);
 		});
@@ -637,7 +760,11 @@ module.exports = React.createClass({
 
 	_selectDone: function (e) {
 		var self = this;
-		var selectedAddress = self.refs.AddressInput.value + "/" + e.target.innerHTML;
+		var addressStamp = self.refs.AddressInput.value;
+		var address = addressStamp.split('/');
+		var province = address[0];
+		var city = address[1];
+		var selectedAddress = province + "/" + city + "/" + e.target.innerHTML;
 		self.setState({
 			selectedAddress: selectedAddress,
 			citybtnBackgroundColor: '',
@@ -654,11 +781,23 @@ module.exports = React.createClass({
 	},
 
 	_handleItemMouseOver: function (e) {
-		e.target.style.backgroundColor = "#FFFAE3";
+		e.target.style.color = "#FF6600";
+		var color = this._hexToRgba(this.state.selectedColor);
+		if (e.target.style.backgroundColor != color.rgba) {
+			e.target.style.backgroundColor = "#FFFAE3";
+		} else {
+			e.target.style.color = "#FFFFFF";
+		}
 	},
 
 	_handleItemMouseLeave: function (e) {
-		e.target.style.backgroundColor = "#FFFFFF";
+		e.target.style.color = "black";
+		var color = this._hexToRgba(this.state.selectedColor);
+		if (e.target.style.backgroundColor != color.rgba) {
+			e.target.style.backgroundColor = "#FFFFFF";
+		} else {
+			e.target.style.color = "#FFFFFF";
+		}
 	},
 
 	render: function () {
@@ -698,5 +837,7 @@ module.exports = React.createClass({
 				</Modal>
 			</div>
 		);
-	},
-});
+	}
+	,
+})
+;
