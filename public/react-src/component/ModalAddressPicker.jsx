@@ -513,6 +513,7 @@ const addressStr = {
 };
 
 module.exports = React.createClass({
+
 	getInitialState: function () {
 		var props = this.props;
 		var onAddressConfirm = props.onAddressConfirm;
@@ -557,6 +558,7 @@ module.exports = React.createClass({
 			rgba: 'rgb(' + r + ', ' + g + ', ' + b + ')'
 		};
 	},
+
 	_ChooseProvince: function () {
 		var self = this;
 		var addressStamp = self.refs.AddressInput.value;
@@ -781,7 +783,7 @@ module.exports = React.createClass({
 	},
 
 	_handleItemMouseOver: function (e) {
-		e.target.style.color = "#FF6600";
+		e.target.style.color = this.state.selectedColor;
 		var color = this._hexToRgba(this.state.selectedColor);
 		if (e.target.style.backgroundColor != color.rgba) {
 			e.target.style.backgroundColor = "#FFFAE3";
@@ -837,7 +839,6 @@ module.exports = React.createClass({
 				</Modal>
 			</div>
 		);
-	}
-	,
+	},
 })
 ;
