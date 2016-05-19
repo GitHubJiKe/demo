@@ -17,6 +17,7 @@
     "morgan": "~1.6.1",
     "react-modal": "^1.2.1",
     "react-overflow-tooltip": "^2.0.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "yo": "^1.8.1"
   }
 }

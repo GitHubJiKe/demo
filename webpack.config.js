@@ -14,14 +14,15 @@ module.exports = {
 		myApp1: path.resolve(__dirname, 'public/react-src/App.jsx'),
 		testModal: path.resolve(__dirname, 'public/react-src/testDatePicker.jsx'),
 		myApp3: path.resolve(__dirname, 'public/react-src/component/TimeChooseDialog.jsx'),
-		myApp5: path.resolve(__dirname, 'public/react-src/LifeCircleToLearn.jsx')
-
+		myApp5: path.resolve(__dirname, 'public/react-src/LifeCircleToLearn.jsx'),
+		DatePicker: path.resolve(__dirname, 'public/react-src/ModalDatePicker.jsx'),
+		PCPicker: path.resolve(__dirname, 'public/react-src/component/ModalAddressPCPicker.jsx')
 	},
 	//出口文件输出配置
 	output: {
 		path: path.resolve(__dirname, 'build'),
 		//D:\project\node\demo\public\dist
-		publicPath: path.join(__dirname, 'public', 'dist/'),
+		publicPath: path.join(__dirname, 'public', 'dist'),
 		// publicPath:'D:\\project\\node\\demo\\public\\dist\\',
 		filename: '[name].bundle.js'
 	},

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone</title>
+</head>
+<body>
+<script type="text/javascript">
+    function onCheckPhoneNumber() {
+        var number = document.getElementById("phonenumber").value;
+        console.log("number = " + number);
+        var isPhoneNumberOK = new RegExp("1[3|5|7|8|][0-9]{9}").test(number);
+        if (isPhoneNumberOK) {
+            alert("OK");
+        } else {
+            alert("No OK");
+        }
+    }
+</script>
+
+<div style="border: solid 1px red">
+    <input type="input" id="phonenumber">
+
+    </input>
+    <input type="button" value="判断" onclick="onCheckPhoneNumber()">
+
+    </input>
+</div>
+</body>
+</html>
