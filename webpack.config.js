@@ -15,6 +15,7 @@ module.exports = {
 		testModal: path.resolve(__dirname, 'public/react-src/testDatePicker.jsx'),
 		myApp3: path.resolve(__dirname, 'public/react-src/component/TimeChooseDialog.jsx'),
 		myApp5: path.resolve(__dirname, 'public/react-src/LifeCircleToLearn.jsx'),
+		myApp55: path.resolve(__dirname, 'public/react-src/LifeCircleToLearn2.jsx'),
 		DatePicker: path.resolve(__dirname, 'public/react-src/ModalDatePicker.jsx'),
 		PCPicker: path.resolve(__dirname, 'public/react-src/component/ModalAddressPCPicker.jsx')
 	},

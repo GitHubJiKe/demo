@@ -5,8 +5,8 @@ var React = require('react');
 var Modal = require('react-modal');
 var ReactDOM = require('react-dom');
 
-var MODAL_WIDTH = 300;
-var MODAL_HEIGHT = 200;
+var MODAL_WIDTH = 400;
+var MODAL_HEIGHT = 300;
 var PROVINCE_TYPE = 1000;
 var CITY_TYPE = 1001;
 var NOTHING = 1003;
@@ -15,13 +15,12 @@ var PADDING_LEFT = 28;
 var PADDING_RIGHT = 24;
 var INPUT_HEIGHT = 20;
 var INPUT_WIDTH = 160;
-var ERROR_HINT_HEIGHT = 8;
-var ERROR_HINT_PADDING_LEFT = 158;
 var FORM_HEIGHT = 80;
+var DEFAULT_DIV_HEIGHT = 42;
 
 var DefaultcustomStyles = {
 	formWidth: 360,
-	scale: 1,
+	scale: 2,
 	inputBorderColor: 'white',
 	inputFontColor: 'white',
 	inputBgColor: '#2E2E2E',
@@ -545,10 +544,6 @@ var PCPicker = React.createClass({
 		e.target.style.backgroundColor = "#FFFFFF";
 	},
 
-	_getCitys: function (value) {
-		return addressData[value];
-	},
-
 	_handleItemClick: function (e) {
 		var selectedAddress;
 		var target = e.target;
@@ -559,9 +554,9 @@ var PCPicker = React.createClass({
 				selectedProvince: value,
 				ProvinceModalIsOpen: false,
 				PCCType: CITY_TYPE,
-				selectedCityOrCounty: this._getCitys(value)[0]
+				selectedCityOrCounty: addressData[value][0]
 			});
-			selectedAddress = value + this._getCitys(value)[0];
+			selectedAddress = value + addressData[value][0];
 		} else {
 			this.setState({selectedCityOrCounty: value, CityOrCountyModalIsOpen: false});
 			selectedAddress = this.state.selectedProvince + value;
@@ -587,21 +582,23 @@ var PCPicker = React.createClass({
 			case NOTHING:
 				return;
 		}
-		if (views) {
-			return views.map(function (v, idx) {
-				return (
-					<p key={idx} className={viewType} onClick={self._handleItemClick} onMouseOver={self._handleMouseOver}
-						 style={{margin:'0px',
+		return views.map(function (v, idx) {
+			return (
+				<p key={idx}
+					 className={viewType}
+					 onClick={self._handleItemClick}
+					 onMouseOver={self._handleMouseOver}
+					 style={{margin:'0px',
 						 paddingTop:PADDING_LEFT*scale,
 						 paddingBottom:PADDING_LEFT*scale,
 						 height:INPUT_HEIGHT*scale,
-						 fontSize:FONT_SIZE*scale}}
-						 onMouseLeave={self._handleMouseLeave}>
-						{v}
-					</p>
-				);
-			})
-		}
+						 fontSize:FONT_SIZE*scale,
+						 textAlign:"center"}}
+					 onMouseLeave={self._handleMouseLeave}>
+					{v}
+				</p>
+			);
+		})
 	},
 
 	_openProvinceSelector: function () {
@@ -610,16 +607,14 @@ var PCPicker = React.createClass({
 		this.setState({ProvinceModalIsOpen: true, PCCType: PROVINCE_TYPE, customStyles: style});
 	},
 
-	getErrorHint: function () {
+	_getErrorHint: function () {
 		var style = this.state.customStyles;
 		var scale = style.scale;
 		return (  <div
 			style={{color:"#EEB422",
-								minHeight:ERROR_HINT_HEIGHT*scale,
-								fontSize:12*scale,
+								fontSize:"60%",
 								paddingTop:0,
-								paddingBottom:0,
-								paddingLeft:ERROR_HINT_PADDING_LEFT*scale}}>
+								paddingBottom:0,}}>
 			<label style={{padding:0,margin:0}}>{style.errorHintText}</label>
 		</div>);
 	},
@@ -645,10 +640,10 @@ var PCPicker = React.createClass({
 		style.labelBgColor = "#2E2E2E";
 		var scale = style.scale;
 		var content = customStyles.content;
-		content.width = style.formWidth * scale;
+		//content.width = style.formWidth * scale;
 		var errorHintView = "";
 		if (style.errorHintText.length > 0) {
-			errorHintView = this.getErrorHint();
+			errorHintView = this._getErrorHint();
 		}
 		return (
 			<div style={{width:style.formWidth*scale,
@@ -661,30 +656,37 @@ var PCPicker = React.createClass({
 				<div
 					style={{paddingTop:style.paddingTB,
 									 paddingBottom:style.paddingTB}}>
-
-					<div style={{padding:0,float:'left',paddingLeft:PADDING_LEFT*scale,paddingRight:PADDING_RIGHT*scale}}>
+					<div style={{float:"left",
+												height:DEFAULT_DIV_HEIGHT*scale,
+												padding:0,
+												paddingLeft:PADDING_LEFT*scale,
+												paddingRight:PADDING_RIGHT*scale}}>
 						<label style={{color:"#EEB422",float:'left'}}>*</label>
 						<textarea value={style.pLabel}
 											rows={style.labelRows}
 											cols={style.labelCols}
+											onChange={self._handleOnChange}
 											disabled="disabled"
 											style={{borderColor:"#2E2E2E",
 											padding:0,
 											backgroundColor:style.labelBgColor,
 											color:style.labelFontColor,
 											fontSize:FONT_SIZE*scale,
+											fontColor:"white",
 											resize:"none",
 											float:'left'}}>
 						</textarea>
 					</div>
-
-					<input type="input"
-								 value={state.selectedProvince}
-								 placeholder={style.pPlaceHolder}
-								 name='province'
-								 onClick={self._openProvinceSelector}
-								 onChange={self._handleOnChange}
-								 style={{width: INPUT_WIDTH*scale,
+					<div style={{float:"left",
+												height:DEFAULT_DIV_HEIGHT*scale,
+												padding:0}}>
+						<input type="input"
+									 value={state.selectedProvince}
+									 placeholder={style.pPlaceHolder}
+									 name='province'
+									 onClick={self._openProvinceSelector}
+									 onChange={self._handleOnChange}
+									 style={{width: INPUT_WIDTH*scale,
 								 padding:0,
 								 height:INPUT_HEIGHT*scale,
 								 color:style.inputFontColor,
@@ -692,7 +694,8 @@ var PCPicker = React.createClass({
 								 border:"solid 1px white",
 								 fontSize:'80%'}}/>
 
-					{errorHintView}
+						{errorHintView}
+					</div>
 
 				</div>
 
@@ -713,14 +716,20 @@ var PCPicker = React.createClass({
 						<textarea value={style.cLabel}
 											rows={style.labelRows}
 											cols={style.labelCols}
+											onChange={self._handleOnChange}
 											disabled="disabled"
 											style={{borderColor:"#2E2E2E",
 											padding:0,
 											backgroundColor:style.labelBgColor,
 											color:style.labelFontColor,
 											fontSize:FONT_SIZE*scale,
+											fontColor:"#FFFFFF",
 											resize:"none",
 											float:'left'}}>
+						</textarea>
+						<textarea value="AAAAA"
+						style={{color:"white",backgroundColor:"black",border:"0px"}}>
+
 						</textarea>
 					</div>
 
