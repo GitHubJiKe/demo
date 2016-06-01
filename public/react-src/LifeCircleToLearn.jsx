@@ -5,66 +5,12 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Dialog = require('rc-dialog');
 require('rc-dialog/assets/index.css');
-
-// var title = "My dialog";
-// require('./mucss.css');
-// // console.log(typeof style);
-// // console.log(style);
-//
-// var Comment = React.createClass({
-// 	getInitialState: function () {
-// 		return ({
-// 			visible: false,
-// 			width: 800,
-// 			center: true
-// 		});
-// 	},
-// 	_closeDialog: function () {
-// 		this.setState({visible: false});
-// 	},
-// 	_openDialog: function () {
-// 		this.setState({visible: true});
-// 	},
-// 	render: function () {
-// 		var wrapClassName = '';
-// 		if (this.state.center) {
-// 			wrapClassName = 'center';
-// 		}
-//
-// 		return (
-// 			<div>
-// 				<input type="button" value="openDialog" onClick={this._openDialog}/>
-// 				<Dialog
-// 					title={title}
-// 					animation="zoom"
-// 					maskAnimation="fade"
-// 					// className="center"
-// 					wrapClassName={wrapClassName}
-// 					onClose={this._closeDialog}
-// 					visible={this.state.visible}>
-// 					<p style={{width:800}}>first dialog</p>
-// 				</Dialog>
-// 			</div>
-// 		);
-// 	}
-// });
-//
-// var container = document.getElementById('app');
-// if (!container) {
-// 	document.write('<div id="app"></div>');
-// }
-// ReactDOM.render(
-// 	<Comment author="adasd" children="This is one comment">
-//
-// 	</Comment>,
-// 	document.getElementById('app')
-// );
-
 var MyControl = React.createClass({
 	getInitialState() {
 		return {
 			visible: false,
 			width: 800,
+			height: 800,
 			destroyOnClose: false,
 			center: false,
 		};
@@ -103,6 +49,7 @@ var MyControl = React.createClass({
 		if (this.state.visible || !this.state.destroyOnClose) {
 			const style = {
 				width: this.state.width,
+				height: this.state.height,
 			};
 			dialog = (
 				<Dialog
